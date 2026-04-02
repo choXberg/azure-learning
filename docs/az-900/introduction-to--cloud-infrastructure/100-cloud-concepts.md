@@ -1,104 +1,103 @@
 # 🌐 Public Cloud
 
-## Definition:
-Cloud-Ressourcen werden von einem Anbieter bereitgestellt und von vielen Kunden gemeinsam genutzt.
+## Definition
+Cloud resources are provided by a vendor and shared by many customers.
 
-Beispiele:
+Examples:
 
 - Microsoft Azure
 - Amazon Web Services
 - Google Cloud Platform
 
-## Merkmale:
+## Characteristics
 
-- Infrastruktur gehört dem Anbieter
-- Zugriff über Internet
+- The infrastructure belongs to the provider
+- Access happens over the internet
 - Pay-as-you-go 💸
-- Hoch skalierbar
+- Highly scalable
 
-## Vorteile:
+## Advantages
 
-- Kein Hardware-Aufwand
-- Schnell startklar
-- Sehr flexibel
+- No hardware effort
+- Quick to get started
+- Very flexible
 
-## Nachteile:
+## Disadvantages
 
-- Weniger Kontrolle
-- Datenschutz/Compliance kann Thema sein
+- Less control
+- Data protection/compliance can be a concern
 
-👉 Praxis: Das ist das, was du mit Azure lernst.
-
+👉 In practice: this is what you learn when working with Azure.
 
 # 🏢 Private Cloud
 
-## Definition:
-Cloud-Infrastruktur wird nur von einer Organisation genutzt.
+## Definition
+Cloud infrastructure is used by only one organization.
 
-Kann sein:
+It can be:
 
-im eigenen Rechenzentrum (on-premise)
-oder dediziert bei einem Anbieter
+- in its own datacenter (on-premises)
+- dedicated at a provider
 
-## Merkmale:
+## Characteristics
 
-Volle Kontrolle 🔒
-- Eigene Hardware / dedizierte Ressourcen
-- Höhere Sicherheit (theoretisch)
+- Full control 🔒
+- Own hardware / dedicated resources
+- Higher security (in theory)
 
-## Vorteile:
+## Advantages
 
-- Maximale Kontrolle
-- Gut für sensible Daten
+- Maximum control
+- Good for sensitive data
 
-## Nachteile:
+## Disadvantages
 
-- Teuer 💸💸
-- Wartung & Betrieb selbst
-- Weniger flexibel
+- Expensive 💸💸
+- You handle maintenance and operations yourself
+- Less flexible
 
-👉 Praxis: Klassische Unternehmens-IT oder Banken.
+👉 In practice: classic enterprise IT or banks.
 
 # 🔀 Hybrid Cloud
 
-## Definition:
-Kombination aus Private Cloud + Public Cloud
+## Definition
+Combination of private cloud + public cloud
 
-Beispiel:
+Example:
 
-Datenbank bleibt on-premise
-Web-App läuft in Microsoft Azure
+- Database remains on-premises
+- Web app runs in Microsoft Azure
 
-## Merkmale:
+## Characteristics
 
-Verbindung zwischen beiden Welten (VPN / ExpressRoute)
-Daten können flexibel verschoben werden
+- Connection between both worlds (VPN / ExpressRoute)
+- Data can be moved flexibly
 
-## Vorteile:
+## Advantages
 
-Beste aus beiden Welten
-Sensible Daten bleiben intern
-Skalierung über Cloud möglich
+- Best of both worlds
+- Sensitive data stays internal
+- Scaling through the cloud is possible
 
-## Nachteile:
+## Disadvantages
 
-Komplexer 🧠
-Netzwerk + Security anspruchsvoller
+- More complex 🧠
+- Networking + security are more demanding
 
-👉 Praxis: Sehr häufig in Unternehmen (auch bei Migration Richtung Cloud)
+👉 In practice: very common in companies, especially during cloud migration.
 
 # 🌍 Multicloud
 
-## Definition:
-Ein Unternehmen nutzt mehrere Public-Cloud-Anbieter gleichzeitig.
+## Definition
+A company uses multiple public cloud providers at the same time.
 
-## 👉 Beispiel:
+## 👉 Example
 
-- Backend läuft auf Amazon Web Services
-- AI/Analytics läuft auf Microsoft Azure
-- Datenanalyse evtl. auf Google Cloud Platform
+- Backend runs on Amazon Web Services
+- AI/analytics runs on Microsoft Azure
+- Data analytics may run on Google Cloud Platform
 
-# Kurzvergleich:
+# Short Comparison
 
 | Feature              | Public Cloud                                       | Private Cloud                                           | Hybrid Cloud                                           | Multi-Cloud                            |
 | -------------------- | -------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------- |
@@ -112,74 +111,73 @@ Ein Unternehmen nutzt mehrere Public-Cloud-Anbieter gleichzeitig.
 | **Typical Use Case** | Web apps, startups, scalable workloads             | Sensitive data, compliance, legacy systems              | Gradual migration, data separation                     | Vendor independence, risk distribution |
 | **Example Scenario** | Hosting a website in Azure                         | Internal company datacenter                             | Database on-prem + app in cloud                        | App split across Azure + AWS           |
 
-
 # 🔗 Azure Arc
 
-## 🌍 Grundidee
+## 🌍 Core Idea
 
-Azure Arc ermöglicht dir:
+Azure Arc allows you to:
 
-- 👉 Ressourcen außerhalb von Azure so zu verwalten, als wären sie in Azure
+- 👉 manage resources outside Azure as if they were in Azure
 
-## 🧠 In einem Satz (wichtig!)
+## 🧠 In One Sentence
 
-👉 Azure Arc erweitert Azure auf andere Umgebungen
+👉 Azure Arc extends Azure to other environments.
 
-## Normalerweise:
+## Normally
 
-Azure verwaltet nur Ressourcen in Azure
+Azure manages only resources inside Azure.
 
-Mit Azure Arc:
+With Azure Arc, you can also manage:
 
-du kannst auch verwalten:
-- 🖥️ On-Prem Server
-- ☁️ andere Clouds (z. B. AWS, GCP)
-- ☸️ Kubernetes Cluster
+- 🖥️ on-premises servers
+- ☁️ other clouds (for example AWS, GCP)
+- ☸️ Kubernetes clusters
 
-👉 und zwar zentral über das Azure Portal
+👉 and do it centrally through the Azure portal.
 
-## 🔥 Merksatz 
+## 🔥 Memory Aid
 
-👉 Azure Arc = Azure Management für alles, egal wo es läuft
+👉 Azure Arc = Azure management for everything, no matter where it runs
 
 # Azure VMware Solution (AVS)
 
-## 👉 Infrastruktur-Service
+## 👉 Infrastructure Service
 
-VMware läuft direkt in Azure
+VMware runs directly in Azure.
 
-Du bekommst:
+You get:
+
 - vSphere
 - vSAN
 - NSX
 
-### 👉 Lift & Shift ohne Umbau
+### 👉 Lift and Shift Without Rebuilding
 
-Typische Nutzung:
+Typical use:
 
-- Migration bestehender VMware-Workloads
-- Legacy-Systeme unverändert weiter betreiben
+- Migrating existing VMware workloads
+- Continuing to run legacy systems unchanged
 
-👉 AVS = „Ich verschiebe meine VMware-Umgebung nach Azure“
+👉 AVS = "I move my VMware environment into Azure"
 
+### 🔥 Exam-Ready Memory Aids
 
-### 🔥 Merksätze (prüfungsreif)
 - Azure Arc = Manage everything
 - Azure VMware Solution = Run VMware in Azure
 
-## Azure Arc vs. Azure VMWare Solution
-| Thema      | Azure Arc           | Azure VMware Solution |
-| ---------- | ------------------- | --------------------- |
-| Zweck      | Management          | Infrastruktur         |
-| Ressourcen | bleiben wo sie sind | laufen in Azure       |
-| Migration  | ❌ nein              | ✅ ja                  |
-| Fokus      | Kontrolle           | Betrieb               |
+## Azure Arc vs. Azure VMware Solution
 
-## 💪 Fazit
+| Topic      | Azure Arc            | Azure VMware Solution |
+| ---------- | -------------------- | --------------------- |
+| Purpose    | Management           | Infrastructure        |
+| Resources  | stay where they are  | run in Azure          |
+| Migration  | ❌ no                | ✅ yes                |
+| Focus      | Control              | Operations            |
 
-- 👉 Arc = Kontrolle
-- 👉 AVS = Migration + Betrieb
+## 💪 Conclusion
 
+- 👉 Arc = control
+- 👉 AVS = migration + operations
 
 # 💰 Consumption-Based Model
 
@@ -218,11 +216,13 @@ A Web API hosted in Azure App Service:
 ## ⚖️ Pros & Cons
 
 ### ✅ Pros
+
 - No upfront investment
 - Flexible scaling
 - Cost-efficient for variable workloads
 
 ### ❌ Cons
+
 - Harder to predict costs
 - Requires monitoring
 - Risk of unexpected charges
@@ -239,168 +239,172 @@ A Web API hosted in Azure App Service:
 
 ## ❓ Questions / Open Points
 
-- How to estimate costs reliably?
+- How can costs be estimated reliably?
 - Which services are most cost-sensitive?
 
 ---
 
-## 💡 Was ich mitgenommen habe
+## 💡 What I Took Away
 
 - Important for designing scalable backend systems
-- Must monitor usage → otherwise cost risk
-
----
-# Hochverfügbarkeit
-
-
-## ⬆️ Vertikale Skalierung (Scale Up)
-4
-
-👉 Ein System stärker machen
-
-- mehr CPU
-- mehr RAM
-- bessere Maschine
-
-#### Vertikal → wenn es einfach bleiben soll
-
-Typische Fälle:
-
-- kleine Anwendung
-- Monolith
-- Datenbank (sehr häufig!)
-- schneller Fix („mehr Power geben“)
-
-👉 Beispiel:
-
-deine API wird langsam → mehr RAM → fertig
-
-## Horizontale Skalierung (Scale Out)
-
-👉 Mehr Instanzen hinzufügen
-
-- mehrere Server
-- Load Balancer davor
-- verteilt Last
-
-#### Horizontal → wenn du skalieren MUSST
-
-Typische Fälle:
-
-- viele User
-- Cloud-native Apps
-- Microservices
-- hohe Verfügbarkeit
-
-👉 Beispiel:
-
-Web API bekommt viel Traffic → mehrere Instanzen
+- Usage must be monitored, otherwise there is cost risk
 
 ---
 
-# ☁️ Sicherheit und Governance
+# High Availability
 
-| Modell | Wer macht mehr? |
-| ------ | --------------- |
-| IaaS   | du              |
-| PaaS   | geteilt         |
-| SaaS   | Anbieter        |
+## ⬆️ Vertical Scaling (Scale Up)
 
+👉 Make a single system more powerful
 
-👉 Das gilt auch für Security & Governance
+- more CPU
+- more RAM
+- a better machine
 
+#### Vertical → when you want to keep it simple
+
+Typical cases:
+
+- small application
+- monolith
+- database (very common)
+- quick fix ("give it more power")
+
+👉 Example:
+
+Your API becomes slow → add more RAM → done
+
+## Horizontal Scaling (Scale Out)
+
+👉 Add more instances
+
+- multiple servers
+- a load balancer in front
+- distributes the load
+
+#### Horizontal → when you HAVE to scale
+
+Typical cases:
+
+- many users
+- cloud-native apps
+- microservices
+- high availability
+
+👉 Example:
+
+The web API gets a lot of traffic → run multiple instances
+
+---
+
+# ☁️ Security and Governance
+
+| Model | Who does more? |
+| ----- | -------------- |
+| IaaS  | you            |
+| PaaS  | shared         |
+| SaaS  | provider       |
+
+👉 This also applies to security and governance.
 
 # 🏗️ IaaS – Infrastructure as a Service
 
-## 🔐 Sicherheit
+## 🔐 Security
 
-👉 Du bist stark verantwortlich
+👉 You have major responsibility.
 
-## Vorteile:
+## Advantages
 
-volle Kontrolle über:
+Full control over:
+
 - OS
-- Netzwerk
-- Firewall
-- kannst eigene Security-Tools einsetzen
+- network
+- firewall
+- ability to use your own security tools
 
-👉 gut für spezielle Anforderungen
+👉 good for special requirements
 
 ## 📋 Governance
 
-👉 sehr flexibel, aber auch viel Arbeit
+👉 very flexible, but also a lot of work
 
-### Vorteile:
+### Advantages
 
-- eigene Policies möglich
-- komplette Kontrolle über Architektur
-- individuell anpassbar
+- your own policies are possible
+- full control over the architecture
+- individually customizable
 
-### ⚠️ Nachteil (wichtig!)
-- hoher Aufwand
-- viele Fehlerquellen
+### ⚠️ Disadvantage (important)
+
+- high effort
+- many possible sources of error
 
 # ⚙️ PaaS – Platform as a Service
-## 🔐 Sicherheit
 
-👉 geteilte Verantwortung
+## 🔐 Security
 
-## Vorteile:
+👉 Shared responsibility
 
-- OS wird vom Anbieter gepatcht
-- integrierte Security (z. B. TLS, Identity)
-- weniger Angriffsfläche
+## Advantages
 
-👉 du fokussierst dich auf Code
+- The OS is patched by the provider
+- Integrated security (for example TLS, identity)
+- Smaller attack surface
 
-## 📋 Governance
-
-### Vorteile:
-
-- einfache Integration mit Azure Policies
-- standardisierte Umgebung
-- weniger Chaos als IaaS
-- ⚠️ Nachteil
-- weniger Kontrolle als IaaS
-- 🧩 SaaS – Software as a Service
-
-## 🔐 Sicherheit
-
-👉 Anbieter macht fast alles
-
-## Vorteile:
-
-- automatische Updates
-- Security komplett gemanagt
-- minimaler Aufwand für dich
+👉 You focus on the code.
 
 ## 📋 Governance
 
-### Vorteile:
+### Advantages
 
-- einfache Benutzer- und Zugriffssteuerung
-- Compliance oft bereits integriert
-- schnelle Nutzung ohne Setup
-- ⚠️ Nachteil
-- wenig Einfluss
-- eingeschränkte Anpassbarkeit
+- easy integration with Azure Policy
+- standardized environment
+- less chaos than IaaS
 
-### 🧠 Vergleich 
+### ⚠️ Disadvantage
 
-| Modell | Sicherheit                               | Governance                     |
-| ------ | ---------------------------------------- | ------------------------------ |
-| IaaS   | maximal flexibel, aber du verantwortlich | volle Kontrolle, hoher Aufwand |
-| PaaS   | sicher + weniger Aufwand                 | standardisiert + integriert    |
-| SaaS   | maximal einfach                          | stark vorgegeben               |
+- less control than IaaS
 
+# 🧩 SaaS – Software as a Service
 
-👉 Je höher der Service, desto weniger musst du sichern und steuern
+## 🔐 Security
 
+👉 The provider does almost everything.
+
+## Advantages
+
+- automatic updates
+- security fully managed
+- minimal effort for you
+
+## 📋 Governance
+
+### Advantages
+
+- easy user and access management
+- compliance is often already integrated
+- quick usage without setup
+
+### ⚠️ Disadvantage
+
+- little influence
+- limited customizability
+
+### 🧠 Comparison
+
+| Model | Security                                 | Governance                     |
+| ------| ---------------------------------------- | ------------------------------ |
+| IaaS  | maximum flexibility, but you are responsible | full control, high effort   |
+| PaaS  | secure + less effort                     | standardized + integrated      |
+| SaaS  | maximum simplicity                       | strongly predefined            |
+
+👉 The higher the service level, the less you need to secure and govern yourself.
 
 ---
-# Management of the cloud
 
-## Management of the cloud speaks to managing your cloud resources. In the cloud, you can:
+# Management of the Cloud
+
+## Management of the cloud refers to managing your cloud resources. In the cloud, you can:
 
 - Automatically scale resource deployment based on need.
 - Deploy resources based on a preconfigured template, removing the need for manual configuration.
@@ -430,20 +434,21 @@ Characteristics:
 - Beginner-friendly and intuitive
 - No programming required
 
-### Advantages:
+### Advantages
 
 - Easy to learn and explore
 - Visual feedback
 - Good for quick configuration
 
-### Disadvantages:
+### Disadvantages
 
 - Not suitable for automation
 - Hard to repeat tasks consistently
 - Slower for large-scale operations
 
-#### 👉 Typical use case:
-- Initial setup
+#### 👉 Typical use case
+
+- initial setup
 - exploration
 - troubleshooting
 
@@ -453,36 +458,37 @@ Characteristics:
 
 CLI = general concept of text-based interaction
 
-### Examples:
+### Examples
 
 - Azure CLI
 - Bash (Linux shell)
 - CMD (Windows)
 
-### Characteristics:
+### Characteristics
 
-- Managed via terminal commands
+- Managed through terminal commands
 - Scriptable and automatable
 - Cross-platform
 
-### Example (Azure CLI):
+### Example (Azure CLI)
 
-```
+```bash
 az group create --name myRG --location westeurope
 ```
 
-### Advantages:
+### Advantages
 
 - Fast and efficient
 - Ideal for automation and CI/CD
 - Repeatable processes
 
-### Disadvantages:
+### Disadvantages
 
 - Steeper learning curve
 - Less visual feedback
 
-#### 👉 Typical use case:
+#### 👉 Typical use case
+
 Automation, deployments, scripting
 
 ---
@@ -491,68 +497,70 @@ Automation, deployments, scripting
 
 PowerShell is a shell and scripting language developed by Microsoft.
 
-### Characteristics:
+### Characteristics
 
 - Object-based (.NET objects instead of plain text)
-- Strong integration with Microsoft ecosystem
-- Uses Verb-Noun command structure
+- Strong integration with the Microsoft ecosystem
+- Uses a Verb-Noun command structure
 
-### Example:
+### Example
 
-```
+```powershell
 New-AzResourceGroup -Name myRG -Location westeurope
 ```
 
-### Advantages:
+### Advantages
 
 - Powerful automation capabilities
 - Works with structured objects
 - Well-suited for Microsoft environments
 
-### Disadvantages:
+### Disadvantages
 
-- Less common outside Microsoft ecosystem
+- Less common outside the Microsoft ecosystem
 - Can be more complex than CLI
 
-### 👉 Typical use case:
+### 👉 Typical use case
 
-- Administration
+- administration
 - advanced automation
 - Microsoft-centric environments
 
 ---
+
 ## 🔌 4. APIs
 
 Cloud providers expose REST APIs for resource management.
 
-### Characteristics:
+### Characteristics
 
 - Direct programmatic access
 - HTTP-based (REST)
 
 Example (simplified):
 
-```
+```http
 POST https://management.azure.com/subscriptions/{id}/resourceGroups
 ```
 
-### Advantages:
+### Advantages
 
 - Maximum flexibility
 - Foundation of all other tools (Portal, CLI, PowerShell)
 
-### Disadvantages:
+### Disadvantages
 
 - More complex to use directly
 - Requires handling authentication and requests
 
-### 👉 Typical use case:
-- Custom 
-- tools
+### 👉 Typical use case
+
+- custom tools
 - integrations
 - SDK development
 
 ---
+
 ## ⚖️ Comparison: CLI vs PowerShell vs Bash
 
 ### 🧠 Core Concepts
@@ -562,7 +570,7 @@ POST https://management.azure.com/subscriptions/{id}/resourceGroups
 | CLI        | General term for command-line interaction  |
 | Bash       | Traditional Unix/Linux shell (text-based)  |
 | PowerShell | Object-oriented shell + scripting language |
-| Azure CLI  | Tool to manage Azure resources             |
+| Azure CLI  | Tool for managing Azure resources          |
 
 ### 🔍 Key Differences
 
@@ -576,25 +584,26 @@ POST https://management.azure.com/subscriptions/{id}/resourceGroups
 
 ## 🔄 How They Work Together
 
-### 👉 Important for exams:
+### 👉 Important for exams
 
 - Azure CLI runs inside Bash, PowerShell, or CMD
 - PowerShell can execute Azure CLI commands
 
-### Example:
+### Example
 
-```
+```bash
 az vm list
 ```
 
 ### 👉 PowerShell simply invokes Azure CLI here.
 
 ---
+
 ## 🧪 Exam-Relevant Key Points
 
 ### ✅ Portal
 
-Easy but not automatable
+Easy, but not automatable
 
 ### ✅ CLI
 
@@ -606,20 +615,21 @@ Powerful, object-based, Microsoft-focused
 
 ### ✅ APIs
 
-Underlying foundation of all management methods
+The underlying foundation of all management methods
 
 ---
 
-## Underlying foundation of all management methods
+## Underlying Foundation of All Management Methods
 
 ### 🚀 Summary
-- Multiple ways exist to manage cloud resources
-- The choice depends on:
-- Level of automation
-- Complexity
-- Environment
 
-### 👉 In practice, they are often combined:
+- There are multiple ways to manage cloud resources
+- The choice depends on:
+- level of automation
+- complexity
+- environment
+
+### 👉 In practice, they are often combined
 
 - Portal → learning and quick tasks
 - CLI / PowerShell → automation
@@ -627,26 +637,28 @@ Underlying foundation of all management methods
 
 ---
 
-## Describe sustainability considerations in the cloud
+## Describe Sustainability Considerations in the Cloud
 
 Cloud computing can support sustainability goals when teams actively optimize how resources are deployed and used.
 
-### Why cloud can improve efficiency
+### Why the cloud can improve efficiency
+
 Cloud providers operate at large scale, which can improve resource utilization compared to many isolated on-premises environments. In Azure, you can also reduce waste by matching deployed resources to actual demand.
 
 ### Sustainability-aligned cloud practices
+
 Examples of practices that support sustainability and cost efficiency include:
 
-- Scaling resources down when demand decreases
-- Turning off or deallocating resources that are not in use
-- Choosing efficient services and configurations to reduce overprovisioning
-- Using governance and monitoring to track usage trends and optimize deployments over time
+- scaling resources down when demand decreases
+- turning off or deallocating resources that are not in use
+- choosing efficient services and configurations to reduce overprovisioning
+- using governance and monitoring to track usage trends and optimize deployments over time
 
 For example, a development environment that runs only during business hours can be automatically shut down overnight and on weekends. This practice reduces unnecessary consumption while still meeting team needs.
 
-At a fundamentals level, sustainability in the cloud is closely tied to good operational habits: 
+At a fundamentals level, sustainability in the cloud is closely tied to good operational habits:
+
 - right-size
 - automate
 - monitor
-- continuously optimize.
-
+- continuously optimize
