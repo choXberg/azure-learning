@@ -30,11 +30,11 @@
     - zu viel → 💸 Verschwendung
     - zu wenig → 🐢 Performance-Probleme
 ---
-##☁️ Cloud
-Du passt Ressourcen dynamisch an
+## ☁️ Cloud
+### Du passt Ressourcen dynamisch an
 Beispiel:
-mehr Traffic → mehr VMs
-weniger Traffic → weniger VMs
+- mehr Traffic → mehr VMs
+- weniger Traffic → weniger VMs
 
 👉 kein Leerlauf = keine unnötigen Kosten
 
@@ -42,24 +42,25 @@ weniger Traffic → weniger VMs
 
 👉 Typisches Cloud-Abrechnungsmodell:
 
-pro Stunde / Sekunde (Compute)
-pro GB (Storage)
-pro Anfrage (z. B. APIs)
-🎯 Vorteile für Unternehmen
-bessere Kostenplanung
-effizientere Nutzung
-Fokus auf Business statt Infrastruktur
-⚠️ Prüfungsfallen (AZ-900)
+- pro Stunde / Sekunde (Compute)
+- pro GB (Storage)
+- pro Anfrage (z. B. APIs)
+## 🎯 Vorteile für Unternehmen
+- bessere Kostenplanung
+- effizientere Nutzung
+- Fokus auf Business statt Infrastruktur
 
-👉 Typische Fragen:
+## ⚠️ Prüfungsfallen (AZ-900)
 
-Cloud ist…
-❌ CapEx
-✅ OpEx
-Du bezahlst…
-❌ für reservierte Kapazität
-✅ für tatsächliche Nutzung
-🧠 Mini-Merksatz
+### 👉 Typische Fragen:
+
+- Cloud ist…
+  - ❌ CapEx
+  - ✅ OpEx
+- Du bezahlst…
+  - ❌ für reservierte Kapazität
+  - ✅ für tatsächliche Nutzung
+  - 🧠 Mini-Merksatz
 
 👉 “Cloud = zahlen wie Strom oder Wasser”
 
