@@ -1,45 +1,45 @@
-# ☁️ Cloud Computing – Kurz & Knackig
+# ☁️ Cloud Computing – Quick & Concise
 
 ## Definition:
-Bereitstellung von IT-Ressourcen über das Internet
-#### Beispiele:
+Provisioning of IT resources over the internet
+#### Examples:
 - VMs (Compute)
 - Storage
-- Datenbanken
+- Databases
 - Networking
-- moderne Services (AI, ML, IoT)
+- Modern services (AI, ML, IoT)
 ---
-### 🚀 Kerneigenschaften
-- On-Demand → sofort verfügbar
-- Skalierbar → hoch & runter je nach Bedarf
-- Keine eigene Hardware nötig
-- Pay-as-you-go → nur zahlen, was genutzt wird
-- Global verfügbar
+### 🚀 Core Characteristics
+- On-Demand → immediately available
+- Scalable → up & down as needed
+- No own hardware required
+- Pay-as-you-go → pay only for what you use
+- Globally available
 ---
-### ⚡ Vorteile (sehr prüfungsrelevant)
-- Schnelle Bereitstellung (Agility)
-- Keine langen Beschaffungszyklen
-- Flexibilität bei Lastspitzen
-- Bessere Ausfallsicherheit (global verteilt)
+### ⚡ Benefits (very exam-relevant)
+- Fast provisioning (Agility)
+- No long procurement cycles
+- Flexibility during peak loads
+- Better reliability (globally distributed)
 ---
-### 🧠 Typisches Prüfungsbeispiel
+### 🧠 Typical Exam Example
 
-#### 👉 Saisonaler Traffic (z. B. Online-Shop)
+#### 👉 Seasonal Traffic (e.g., Online Shop)
 
-Klassisch: Server kaufen → teuer & unflexibel
+Traditional: Buy servers → expensive & inflexible
 Cloud:
-hochskalieren bei Bedarf
-danach wieder runter
-→ kosteneffizient + flexibel
+Scale up when needed
+Scale down afterward
+→ cost-effective + flexible
 
-### 🧩 Merksatz
+### 🧩 Memory Aid
 
-👉 Cloud = IT-Ressourcen on-demand über Internet, skalierbar & nutzungsbasiert
+👉 Cloud = IT resources on-demand over internet, scalable & usage-based
 
 ---
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)
-- [Next: 🔐 Shared Responsibility Model – Kurz & Knackig](20_shared_responsibility_model.md)
+- [Next: 🔐 Shared Responsibility Model – Quick & Concise](20_shared_responsibility_model.md)
 - [Home](../../README.md)
 

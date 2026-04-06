@@ -1,146 +1,146 @@
 # 🌐 Azure External Identities (AZ-900)
 
-## 🧠 Überblick
-- **External Identity** = Identität außerhalb deines Tenants
-  - z. B. Partner, Kunden, Lieferanten, externe Entwickler
-- Ermöglicht:
-  - Zugriff auf Ressourcen **ohne eigene interne Accounts**
+## 🧠 Overview
+- **External Identity** = Identity outside your tenant
+  - e.g., Partners, customers, suppliers, external developers
+- Enables:
+  - Access to resources **without internal accounts**
 
 ---
 
-## 🎯 Warum sind externe Identitäten wichtig?
-- Zusammenarbeit mit:
-  - Partnern
-  - Lieferanten
-  - Kunden
-- Vorteile:
-  - Kein eigenes User-Management nötig
-  - Nutzer verwenden **ihre eigenen Accounts**
-- Du kontrollierst:
-  - Zugriff (Authorization)
-- Externer Provider kontrolliert:
-  - Anmeldung (Authentication)
+## 🎯 Why are external identities important?
+- Collaboration with:
+  - Partners
+  - Suppliers
+  - Customers
+- Advantages:
+  - No need for own user management
+  - Users use **their own accounts**
+- You control:
+  - Access (Authorization)
+- External provider controls:
+  - Login (Authentication)
 
 ---
 
-## 🔐 Identity Provider (wichtig!)
-Externe Nutzer können sich anmelden mit:
-- Firmenkonto (anderer Tenant)
-- Social Login (Google, Facebook)
+## 🔐 Identity Provider (important!)
+External users can log in with:
+- Company account (another tenant)
+- Social login (Google, Facebook)
 - Microsoft Account
-- Behörden-Identitäten
+- Government identities
 
 ---
 
-## 🔄 Abgrenzung zu SSO
+## 🔄 Differentiation from SSO
 
-| Thema | Beschreibung |
+| Topic | Description |
 |------|-------------|
-| SSO | Login innerhalb eines Tenants |
-| External Identities | Zugriff über Tenant-Grenzen hinweg |
+| SSO | Login within one tenant |
+| External Identities | Access across tenant boundaries |
 
 ---
 
 ## ⚙️ External Identity Features
 
 ### 🤝 B2B Collaboration
-- Externe Nutzer werden als **Guest User** in deinem Tenant angelegt
-- Zugriff auf:
+- External users are created as **Guest User** in your tenant
+- Access to:
   - Apps
-  - Ressourcen
-- Nutzung:
-  - Klassische Zusammenarbeit
+  - Resources
+- Usage:
+  - Classic collaboration
 
 ---
 
 ### 🔗 B2B Direct Connect
-- Verbindung zwischen zwei Tenants (Trust)
-- Kein Gast-User im Tenant notwendig
-- Aktuell:
-  - Fokus auf Microsoft Teams (Shared Channels)
-- Nutzer bleiben in ihrem eigenen Tenant
+- Connection between two tenants (Trust)
+- No guest user in tenant necessary
+- Currently:
+  - Focus on Microsoft Teams (Shared Channels)
+- Users remain in their own tenant
 
 ---
 
 ### 👥 External ID for Customers (Azure AD B2C)
-- Für:
-  - Kunden / Endnutzer (B2C Szenario)
-- Nutzung:
-  - Eigene Apps (SaaS / Custom Apps)
-- Verwaltung:
-  - Separater Tenant
+- For:
+  - Customers / end users (B2C scenario)
+- Usage:
+  - Own apps (SaaS / Custom Apps)
+- Management:
+  - Separate tenant
 
 ---
 
-## 🧩 Vergleich der Modelle
+## 🧩 Comparison of Models
 
 | Feature                | B2B Collaboration | B2B Direct Connect | External ID (B2C) |
 |------------------------|------------------|--------------------|-------------------|
-| Zielgruppe             | Partner / Gäste  | Partner (Teams)    | Kunden            |
-| Benutzer im Tenant     | ✅ Ja (Guest)     | ❌ Nein            | ❌ Separat        |
-| Typischer Use Case     | App-Zugriff      | Teams Collaboration| Kunden-Apps       |
+| Target group           | Partners / Guests| Partners (Teams)   | Customers         |
+| Users in tenant        | ✅ Yes (Guest)    | ❌ No              | ❌ Separate       |
+| Typical use case       | App access       | Teams Collaboration| Customer apps     |
 
 ---
 
-## 👉 Unterschied  B2B Direct Connect zu B2B Collaboration:
+## 👉 Difference B2B Direct Connect vs B2B Collaboration:
 
 | Feature              | B2B Collaboration | B2B Direct Connect         |
 | -------------------- | ----------------- | -------------------------- |
-| Guest User           | ✅ Ja              | ❌ Nein                     |
-| Tenant-Wechsel nötig | Oft ja            | ❌ Nein                     |
-| Teams Integration    | Eingeschränkt     | ✅ Native (Shared Channels) |
+| Guest User           | ✅ Yes             | ❌ No                      |
+| Tenant switch needed | Often yes         | ❌ No                      |
+| Teams Integration    | Limited           | ✅ Native (Shared Channels)|
 
 ---
-## Kurzvergleich (perfekt für Prüfung)
+## Quick comparison (perfect for exam)
 
-| Thema       | B2B                  | B2C                            |
+| Topic       | B2B                  | B2C                            |
 | ----------- | -------------------- | ------------------------------ |
-| Bedeutung   | Business to Business | Business to Consumer           |
-| Zielgruppe  | Partner / Firmen     | Kunden / Endnutzer             |
-| Zugriff auf | Interne Ressourcen   | Öffentliche Apps               |
-| User-Typ    | Guest User im Tenant | Externe User im eigenen System |
-| Login       | Firmenkonto          | Social Login / E-Mail          |
+| Meaning     | Business to Business | Business to Consumer           |
+| Target group| Partners / Companies | Customers / End users          |
+| Access to   | Internal resources   | Public apps                    |
+| User type   | Guest User in tenant | External user in own system    |
+| Login       | Company account      | Social login / Email           |
 
-## 🧠 Ultimativer Merksatz
+## 🧠 Ultimate mnemonic
 
-- 👉 B2B = Partner arbeiten mit dir
-- 👉 B2C = Kunden nutzen dein Produkt
+- 👉 B2B = Partners work with you
+- 👉 B2C = Customers use your product
 
-## 🎯 Prüfungs-Shortcut
-- „Partner greift auf meine Ressourcen zu“ → B2B
-- „Kunde loggt sich in App ein“ → B2C
+## 🎯 Exam shortcut
+- "Partner accesses my resources" → B2B
+- "Customer logs into app" → B2C
 
-## 🔄 Zugriff verwalten (sehr wichtig!)
+## 🔄 Manage access (very important!)
 
 ### 👀 Access Reviews
-- Regelmäßige Überprüfung:
-  - Braucht der User noch Zugriff?
-- Beteiligte:
-  - User selbst oder Entscheider
-- Ergebnis:
-  - Zugriff behalten oder entfernen
+- Regular review:
+  - Does the user still need access?
+- Involved:
+  - User themselves or decision makers
+- Result:
+  - Keep or remove access
 
 ---
 
-## 🎯 Prüfungsrelevante Kernaussagen
+## 🎯 Exam-relevant core statements
 
-- External Identities = Zugriff **außerhalb deines Tenants**
-- Authentication = externer Provider
-- Authorization = dein Tenant (Entra ID)
-- B2B Collaboration = Guest User im Tenant
-- B2B Direct Connect = kein Guest User
-- B2C = für Kunden (separater Tenant)
-- Access Reviews = Zugriff regelmäßig prüfen
+- External Identities = Access **outside your tenant**
+- Authentication = external provider
+- Authorization = your tenant (Entra ID)
+- B2B Collaboration = Guest User in tenant
+- B2B Direct Connect = no Guest User
+- B2C = for customers (separate tenant)
+- Access Reviews = check access regularly
 
 ---
 
-## 🧠 Merksatz
+## 🧠 Mnemonic
 
-👉 **„Extern anmelden – intern kontrollieren.“**
+👉 **"Log in externally – control internally."**
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)
 - [Previous: 🔐 Azure Authentication Methods (AZ-900)](20_azure_authentication_methods.md)
-- [Next: 🧠 External Identities – Eselsbrücken & Prüfungs-Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
+- [Next: 🧠 External Identities – Mnemonics & Exam Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
 - [Home](../README.md)
 

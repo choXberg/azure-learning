@@ -1,71 +1,71 @@
 # ☁️ Consumption-Based Model (Pay-as-you-go)
 
-## 🧠 Grundprinzip
+## 🧠 Basic Principle
 
-### 👉 Du bezahlst nur das, was du wirklich nutzt
-- keine eigenen Server kaufen
-- Ressourcen mieten statt besitzen
-- jederzeit hoch- und runter skalieren
+### 👉 You pay only for what you actually use
+- Don't buy own servers
+- Rent resources instead of owning them
+- Scale up and down anytime
 ---  
-## 💰 CapEx vs. OpEx (SEHR wichtig!)
-| Begriff                            | Bedeutung                                              | Cloud? |
+## 💰 CapEx vs. OpEx (VERY important!)
+| Term                            | Meaning                                              | Cloud? |
 | ---------------------------------- | ------------------------------------------------------ | ------ |
-| **CapEx** (Capital Expenditure)    | Einmalige Investitionen (Server, Hardware, Datacenter) | ❌      |
-| **OpEx** (Operational Expenditure) | Laufende Kosten (monatlich, nutzungsbasiert)           | ✅      |
+| **CapEx** (Capital Expenditure)    | One-time investments (servers, hardware, data center) | ❌      |
+| **OpEx** (Operational Expenditure) | Ongoing costs (monthly, usage-based)           | ✅      |
 
 
 ### 👉 Cloud = OpEx
 ---
-## 🚀 Vorteile des Consumption Models
-- ❌ Keine Anfangsinvestition
-- ❌ Kein Überkauf von Hardware
-- ✅ Skalierbarkeit (on demand)
-- ✅ Flexibilität
-- ✅ Kostenkontrolle
+## 🚀 Benefits of Consumption Model
+- ✅ No initial investment
+- ✅ No overbuy of hardware
+- ✅ Scalability (on demand)
+- ✅ Flexibility
+- ✅ Cost control
 ---
-## ⚖️ Traditionell vs. Cloud
-### 🏢 Traditionelles Rechenzentrum
-- Du musst vorher schätzen
+## ⚖️ Traditional vs. Cloud
+### 🏢 Traditional Data Center
+- You have to estimate beforehand
 - Problem:
-    - zu viel → 💸 Verschwendung
-    - zu wenig → 🐢 Performance-Probleme
+    - too much → 💸 Waste
+    - too little → 🐢 Performance issues
 ---
 ## ☁️ Cloud
-### Du passt Ressourcen dynamisch an
-Beispiel:
-- mehr Traffic → mehr VMs
-- weniger Traffic → weniger VMs
+### You adjust resources dynamically
+Example:
+- more traffic → more VMs
+- less traffic → fewer VMs
 
-👉 kein Leerlauf = keine unnötigen Kosten
+👉 No idle time = no unnecessary costs
 
-💡 Pay-as-you-go Modell
+💡 Pay-as-you-go model
 
-👉 Typisches Cloud-Abrechnungsmodell:
+👉 Typical cloud billing model:
 
-- pro Stunde / Sekunde (Compute)
-- pro GB (Storage)
-- pro Anfrage (z. B. APIs)
-## 🎯 Vorteile für Unternehmen
-- bessere Kostenplanung
-- effizientere Nutzung
-- Fokus auf Business statt Infrastruktur
+- Per hour / second (Compute)
+- Per GB (Storage)
+- Per request (e.g., APIs)
+## 🎯 Benefits for Companies
+- Better cost planning
+- More efficient use
+- Focus on business instead of infrastructure
 
-## ⚠️ Prüfungsfallen (AZ-900)
+## ⚠️ Exam Pitfalls (AZ-900)
 
-### 👉 Typische Fragen:
+### 👉 Typical Questions:
 
-- Cloud ist…
+- Cloud is…
   - ❌ CapEx
   - ✅ OpEx
-- Du bezahlst…
-  - ❌ für reservierte Kapazität
-  - ✅ für tatsächliche Nutzung
-  - 🧠 Mini-Merksatz
+- You pay…
+  - ❌ For reserved capacity
+  - ✅ For actual usage
+  - 🧠 Mini-Memory Aid
 
-👉 “Cloud = zahlen wie Strom oder Wasser”
+👉 "Cloud = pay like electricity or water"
 
-nutzen → zahlen
-nicht nutzen → nichts zahlen
+use → pay
+don't use → don't pay
 
 ---
 

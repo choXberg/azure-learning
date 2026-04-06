@@ -1,16 +1,16 @@
-# 📦 Azure Containers – Zusammenfassung (AZ-900 relevant)
+# 📦 Azure Containers – Summary (AZ-900 relevant)
 
-## 🧠 Was sind Container?
+## 🧠 What are Containers?
 
-- **Leichtgewichtige Virtualisierung**
-- Mehrere Container laufen auf **einem Host (VM oder physisch)**
-- **Kein eigenes Betriebssystem pro Container** (im Gegensatz zu VMs)
-- Schnell startbar, skalierbar und wiederherstellbar
-- Ideal für **dynamische Workloads**
+- **Lightweight virtualization**
+- Multiple containers run on **one host (VM or physical)**
+- **No own operating system per container** (unlike VMs)
+- Quickly startable, scalable and recoverable
+- Ideal for **dynamic workloads**
 
-👉 Wichtiger Unterschied zu VMs:
-- VM = eigenes OS + mehr Overhead  
-- Container = teilen sich OS + sehr effizient
+👉 Important difference to VMs:
+- VM = own OS + more overhead  
+- Container = share OS + very efficient
 
 ---
 
@@ -18,60 +18,60 @@
 
 | Feature              | Virtual Machine            | Container                    |
 |---------------------|--------------------------|------------------------------|
-| Betriebssystem      | Eigenes OS pro VM        | Gemeinsames Host-OS          |
-| Startzeit           | Langsam                  | Sehr schnell                 |
-| Ressourcenverbrauch | Hoch                     | Niedrig                      |
-| Skalierung          | Schwerfälliger           | Sehr flexibel                |
+| Operating System    | Own OS per VM             | Shared host OS               |
+| Startup Time        | Slow                      | Very fast                    |
+| Resource Consumption| High                      | Low                          |
+| Scaling             | Cumbersome                | Very flexible                |
 
 👉 **Exam Key Point:**  
-Container = **leichtgewichtiger + schneller + skalierbarer**
+Container = **lighter weight + faster + more scalable**
 
 ---
 
-## ☁️ Azure Container Services (wichtig für Prüfung!)
+## ☁️ Azure Container Services (important for the exam!)
 
 ### 🚀 Azure Container Instances (ACI)
-- Schnellster Einstieg
-- **Kein VM-Management**
+- Fastest entry
+- **No VM management**
 - **PaaS**
-- Für einfache / kurzfristige Workloads
+- For simple / short-term workloads
 
 👉 Use Case:
-- Kleine Apps, Jobs, Tests
+- Small apps, jobs, tests
 
 ---
 
 ### ⚙️ Azure Container Apps
-- Aufbauend auf Containern
-- **Auto-Scaling + Load Balancing integriert**
-- Ebenfalls **PaaS**
-- Für moderne Apps ohne Infrastruktur-Aufwand
+- Building on containers
+- **Auto-scaling + load balancing integrated**
+- Also **PaaS**
+- For modern apps without infrastructure effort
 
 👉 Use Case:
-- Microservices, APIs, Web-Apps
+- Microservices, APIs, web-apps
 
 ---
 
 ### 🧩 Azure Kubernetes Service (AKS)
-- **Container-Orchestrierung (sehr wichtig!)**
-- Verwaltet:
+- **Container orchestration (very important!)**
+- Manages:
   - Deployment
   - Scaling
   - Networking
-- Komplexer, aber sehr mächtig
+- More complex, but very powerful
 
 👉 Use Case:
-- Große, verteilte Systeme
-- Enterprise / Microservices
+- Large, distributed systems
+- Enterprise / microservices
 
 ---
 
-## 🏗️ Orchestrierung (prüfungsrelevant!)
+## 🏗️ Orchestration (exam relevant!)
 
-- Bedeutet: **Verwaltung vieler Container**
-- Aufgaben:
+- Means: **Management of many containers**
+- Tasks:
   - Start/Stop
-  - Skalierung
+  - Scaling
   - Load Balancing
   - Self-Healing
 
@@ -79,46 +79,46 @@ Container = **leichtgewichtiger + schneller + skalierbarer**
 
 ---
 
-## 🧱 Typische Nutzung: Microservices
+## 🧱 Typical Usage: Microservices
 
-- Anwendung wird in **kleine, unabhängige Services** aufgeteilt:
+- Application is divided into **small, independent services**:
   - Frontend
   - Backend
-  - Datenbank
+  - Database
 
-### Vorteile:
-- Unabhängig deploybar
-- Separat skalierbar
-- Bessere Wartbarkeit
-
----
-
-## 🎯 Wann verwendet man Container?
-
-- Wenn du:
-  - **schnell skalieren** willst
-  - **flexibel deployen** möchtest
-  - **Microservices Architektur** nutzt
-  - Ressourcen effizient nutzen willst
+### Advantages:
+- Independently deployable
+- Separately scalable
+- Better maintainability
 
 ---
 
-## 🧪 Prüfungsrelevante Kernpunkte
+## 🎯 When to use Containers?
 
-- Container ≠ VM (leichtgewichtiger, kein eigenes OS)
-- **Docker** ist ein gängiger Container-Standard
-- **ACI = einfach & schnell**
+- If you:
+  - want to **scale quickly**
+  - want to **deploy flexibly**
+  - use **microservices architecture**
+  - want to use resources efficiently
+
+---
+
+## 🧪 Exam-relevant Core Points
+
+- Container ≠ VM (lighter weight, no own OS)
+- **Docker** is a common container standard
+- **ACI = simple & fast**
 - **Container Apps = PaaS + Scaling**
-- **AKS = Orchestrierung**
-- Microservices sind ein typischer Use Case
+- **AKS = Orchestration**
+- Microservices are a typical use case
 
 ---
 
-## 🧠 Merksatz für die Prüfung
+## 🧠 Mnemonic for the Exam
 
-> **ACI = schnell starten**  
-> **Container Apps = einfach skalieren**  
-> **AKS = komplex orchestrieren**
+> **ACI = start quickly**  
+> **Container Apps = scale easily**  
+> **AKS = orchestrate complexly**
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)

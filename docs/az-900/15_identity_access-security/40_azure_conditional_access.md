@@ -1,55 +1,55 @@
 # 🔐 Azure Conditional Access (AZ-900)
 
-## 🧠 Überblick
-- **Conditional Access** = Zugriff basierend auf Bedingungen steuern
-- Teil von Microsoft Entra ID
-- Ziel:
-  - Sicherheit erhöhen
-  - Benutzerfreundlichkeit erhalten
+## 🧠 Overview
+- **Conditional Access** = Control access based on conditions
+- Part of Microsoft Entra ID
+- Goal:
+  - Increase security
+  - Maintain user-friendliness
 
-👉 Prinzip:
-**„If → Then“ (Wenn Bedingung erfüllt → dann Aktion)**
-
----
-
-## 🔍 Wie funktioniert Conditional Access?
-
-### 1️⃣ Signale (Signals)
-Während des Logins werden Informationen gesammelt:
-
-- 👤 Wer? (User / Rolle)
-- 📍 Wo? (Standort)
-- 💻 Gerät (managed / unmanaged)
-- 📱 Anwendung
+👉 Principle:
+**"If → Then" (If condition met → then action)**
 
 ---
 
-### 2️⃣ Entscheidung (Decision)
-Basierend auf den Signalen:
+## 🔍 How does Conditional Access work?
 
-- Zugriff erlauben
-- Zugriff blockieren
-- MFA verlangen
+### 1️⃣ Signals
+During login, information is collected:
+
+- 👤 Who? (User / Role)
+- 📍 Where? (Location)
+- 💻 Device (managed / unmanaged)
+- 📱 Application
 
 ---
 
-### 3️⃣ Durchsetzung (Enforcement)
-Aktion wird umgesetzt:
+### 2️⃣ Decision
+Based on the signals:
 
-- ✅ Allow (Zugriff erlauben)
+- Allow access
+- Block access
+- Require MFA
+
+---
+
+### 3️⃣ Enforcement
+Action is implemented:
+
+- ✅ Allow (Allow access)
 - 🔐 Require MFA
 - ❌ Block
 
 ---
 
-## 🔄 Ablauf (Flow)
+## 🔄 Flow
 User Login
 ↓
-Signale sammeln (User, Location, Device)
+Collect signals (User, Location, Device)
 ↓
-Policy prüfen
+Check policy
 ↓
-Aktion:
+Action:
 → Allow
 → Require MFA
 → Block
@@ -57,72 +57,72 @@ Aktion:
 
 ---
 
-## ⚙️ Typische Szenarien
+## ⚙️ Typical Scenarios
 
-### 🔐 MFA abhängig von Bedingungen
-- Admin → immer MFA
-- Externer Zugriff → MFA
-
----
-
-### 📱 Zugriff nur über erlaubte Apps
-- Nur bestimmte Clients erlaubt (z. B. Outlook App)
+### 🔐 MFA depending on conditions
+- Admin → always MFA
+- External access → MFA
 
 ---
 
-### 💻 Zugriff nur von sicheren Geräten
-- Nur **managed / compliant devices**
+### 📱 Access only via approved apps
+- Only specific clients allowed (e.g., Outlook App)
 
 ---
 
-### 🚫 Blockieren von Risiken
-- Unbekannte Standorte
-- Verdächtige Login-Versuche
+### 💻 Access only from secure devices
+- Only **managed / compliant devices**
 
 ---
 
-## 🎯 Beispiele
-
-- Login aus Büro → ✅ Zugriff ohne MFA  
-- Login aus anderem Land → 🔐 MFA erforderlich  
-- Login von unsicherem Gerät → ❌ Zugriff blockiert  
+### 🚫 Block risks
+- Unknown locations
+- Suspicious login attempts
 
 ---
 
-## 🧠 Vorteile
+## 🎯 Examples
 
-- Granulare Zugriffskontrolle
-- Höhere Sicherheit
-- Flexible Policies
-- Bessere User Experience (nicht immer MFA nötig)
+- Login from office → ✅ Access without MFA  
+- Login from another country → 🔐 MFA required  
+- Login from insecure device → ❌ Access blocked  
 
 ---
 
-## 🎯 Prüfungsrelevante Kernaussagen
+## 🧠 Advantages
 
-- Conditional Access = **regelbasierter Zugriff**
-- Entscheidungen basieren auf:
+- Granular access control
+- Higher security
+- Flexible policies
+- Better user experience (MFA not always required)
+
+---
+
+## 🎯 Exam-relevant core statements
+
+- Conditional Access = **rule-based access**
+- Decisions based on:
   - User
   - Location
   - Device
   - App
-- Aktionen:
+- Actions:
   - Allow
   - Require MFA
   - Block
-- MFA kann **dynamisch** erzwungen werden
-- Wichtig für:
+- MFA can be **dynamically** enforced
+- Important for:
   - Zero Trust Security
 
 ---
 
-## 🧠 Merksatz
+## 🧠 Mnemonic
 
-👉 **„Zugriff nur unter den richtigen Bedingungen.“**
+👉 **"Access only under the right conditions."**
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)
-- [Previous: 🧠 External Identities – Eselsbrücken & Prüfungs-Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
+- [Previous: 🧠 External Identities – Mnemonics & Exam Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
 - [Next: 🔐 Azure Role-Based Access Control (RBAC)](50_azure_role_based_access_control.md)
 - [Home](../README.md)
 

@@ -1,93 +1,93 @@
-# ☁️ Cloud Models – Kurz & Knackig
+# ☁️ Cloud Models – Quick & Concise
 
 ## Definition:
 
-- Beschreiben, wie Cloud-Ressourcen bereitgestellt werden
-- 3 Hauptmodelle:
+- Describe how cloud resources are deployed
+- 3 main models:
   - Public
   - Private
   - Hybrid
 
 # 🌍 Public Cloud
-- Von Provider (z. B. Microsoft) betrieben
-- Für alle zugänglich
+- Operated by provider (e.g., Microsoft)
+- Accessible to everyone
 - Pay-as-you-go
-- Schnell skalierbar
+- Quickly scalable
 
-## 👉 Nachteile:
-- Weniger Kontrolle
-- Ressourcen werden geteilt (Multi-Tenant)
+## 👉 Disadvantages:
+- Less control
+- Resources are shared (Multi-Tenant)
 ---
 # 🏢 Private Cloud
-- Nur für eine Organisation
-- Höchste Kontrolle & Sicherheit
-- Kann On-Prem oder extern gehostet sein
+- Only for one organization
+- Highest control & security
+- Can be on-prem or externally hosted
 
-## 👉 Nachteile:
-- Teuer
-- Wartung liegt bei dir
-- Weniger flexibel
+## 👉 Disadvantages:
+- Expensive
+- Maintenance is your responsibility
+- Less flexible
 - 
 # 🔀 Hybrid Cloud
-Kombination aus Public + Private
-Daten/Apps flexibel verteilen
+Combination of public + private
+Distribute data/apps flexibly
 
-## 👉 Vorteile:
-- Maximale Flexibilität
-- Bursting möglich (Lastspitzen → Public Cloud)
-- Kontrolle über sensible Daten
+## 👉 Benefits:
+- Maximum flexibility
+- Bursting possible (peak loads → Public Cloud)
+- Control over sensitive data
 
 # 🌐 Multicloud
-- Nutzung von mehreren Cloud-Anbietern
-- z. B. Azure + AWS
+- Use of multiple cloud providers
+- E.g., Azure + AWS
 
-## 👉 Gründe:
+## 👉 Reasons:
 - Migration
-- Spezial-Features nutzen
-- Risiko verteilen
+- Use special features
+- Distribute risk
 
-# 🛠️ Wichtige Azure-Tools
+# 🛠️ Important Azure Tools
 - ## 🔧 Azure Arc
-- Einheitliches Management:
+- Unified management:
   - Public
   - Private
   - Hybrid
   - Multicloud
   
 ## 🖥️ Azure VMware Solution
-- VMware Workloads in Azure betreiben
-- Einfacher Übergang in die Cloud
+- Run VMware workloads in Azure
+- Simple transition to the cloud
 
-# ⚡ Prüfungsvergleich (sehr wichtig)
-| Modell            | Beschreibung                                                                                | Vorteile                                                                        | Nachteile                                            | Beispiele                                                            |
+# ⚡ Exam Comparison (very important)
+| Model            | Description                                                                                | Benefits                                                                        | Disadvantages                                            | Examples                                                            |
 | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- |
-| **Private Cloud** | Infrastruktur wird **nur von einer Organisation** genutzt (on-prem oder dediziert gehostet) | - Hohe Kontrolle<br>- Höhere Sicherheit<br>- Anpassbar                          | - Teuer<br>- Wartungsaufwand<br>- Weniger Skalierung | - Eigenes Rechenzentrum<br>- Dedizierte Umgebung bei Microsoft Azure |
-| **Public Cloud**  | Ressourcen werden von einem **Cloud-Anbieter öffentlich bereitgestellt**                    | - Skalierbar<br>- Pay-as-you-go<br>- Kein Wartungsaufwand                       | - Weniger Kontrolle<br>- Shared Environment          | - Microsoft Azure<br>- Amazon Web Services (AWS)<br>- Google Cloud   |
-| **Hybrid Cloud**  | Kombination aus **Private + Public Cloud** (verbunden)                                      | - Flexibel<br>- Sensible Daten bleiben privat<br>- Skalierung über Public Cloud | - Komplexer Betrieb<br>- Integration nötig           | - On-Prem + Azure<br>- Backup in Public Cloud                        |
-| **Multi-Cloud**   | Nutzung von **mehreren Cloud-Anbietern gleichzeitig**                                       | - Kein Vendor Lock-in<br>- Best-of-Breed Services<br>- Höhere Ausfallsicherheit | - Sehr komplex<br>- Mehr Know-how nötig              | - Azure + AWS parallel<br>- AWS für Storage, Google Cloud für AI     |
+| **Private Cloud** | Infrastructure is **used by only one organization** (on-prem or dedicated hosted) | - High control<br>- Higher security<br>- Customizable                          | - Expensive<br>- Maintenance effort<br>- Less scaling | - Own data center<br>- Dedicated environment from Microsoft Azure |
+| **Public Cloud**  | Resources are **publicly provided by a cloud provider**                    | - Scalable<br>- Pay-as-you-go<br>- No maintenance effort                       | - Less control<br>- Shared environment          | - Microsoft Azure<br>- Amazon Web Services (AWS)<br>- Google Cloud   |
+| **Hybrid Cloud**  | Combination of **private + public cloud** (connected)                                      | - Flexible<br>- Sensitive data stays private<br>- Scaling via public cloud | - More complex operations<br>- Integration needed           | - On-Prem + Azure<br>- Backup in public cloud                        |
+| **Multi-Cloud**   | Use of **multiple cloud providers simultaneously**                                       | - No vendor lock-in<br>- Best-of-breed services<br>- Higher reliability | - Very complex<br>- More expertise needed              | - Azure + AWS in parallel<br>- AWS for storage, Google Cloud for AI     |
 
 
 ![cloud models](images/cloud-models.png)
 
 
-# 🧠 Merksätze
-- 👉 Public = teilen & flexibel
-- 👉 Private = Kontrolle & teuer
-- 👉 Hybrid = Best of both worlds
-- 👉 Multicloud = mehrere Anbieter
+# 🧠 Memory Aids
+- 👉 Public = sharing & flexible
+- 👉 Private = control & expensive
+- 👉 Hybrid = best of both worlds
+- 👉 Multicloud = multiple providers
   
-# 🎯 Typische Prüfungsfragen
-- „Maximale Kontrolle?“ → Private Cloud
-- „Keine Hardware kaufen?“ → Public Cloud
-- „Flexibel zwischen beiden?“ → Hybrid Cloud
-- „Mehrere Anbieter?“ → Multicloud
+# 🎯 Typical Exam Questions
+- „Maximum control?" → Private Cloud
+- „No hardware to buy?" → Public Cloud
+- „Flexible between both?" → Hybrid Cloud
+- „Multiple providers?" → Multicloud
 
 ---
 [Cloud Concepts](README.md)
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)
-- [Previous: 🔐 Shared Responsibility Model – Kurz & Knackig](20_shared_responsibility_model.md)
+- [Previous: 🔐 Shared Responsibility Model – Quick & Concise](20_shared_responsibility_model.md)
 - [Next: Cloud Models – Use Cases](40_cloud_models_use_cases.md)
 - [Home](../../README.md)
 

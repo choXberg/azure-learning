@@ -1,92 +1,92 @@
 # 📘 Azure Directory Services (AZ-900)
 
-## 🧠 Überblick: Microsoft Entra ID
-- Microsoft Entra ID = Cloud-basierter Identity & Access Management Service (IAM)
-- Ermöglicht:
-  - Anmeldung (Login) bei Microsoft Cloud-Diensten (Azure, M365)
-  - Zugriff auf eigene (custom) Anwendungen
-- Vergleich zu On-Prem:
-  - Ähnlich wie Active Directory
-  - Unterschied: Microsoft betreibt & skaliert die Infrastruktur global
+## 🧠 Overview: Microsoft Entra ID
+- Microsoft Entra ID = Cloud-based Identity & Access Management Service (IAM)
+- Enables:
+  - Login to Microsoft Cloud services (Azure, M365)
+  - Access to custom applications
+- Comparison to On-Prem:
+  - Similar to Active Directory
+  - Difference: Microsoft operates & scales infrastructure globally
 
 ---
 
-## 👥 Wer nutzt Microsoft Entra ID?
-- IT-Administratoren
-  - Steuern Zugriff auf Ressourcen & Apps
-- Entwickler
-  - Implementieren Authentifizierung (z. B. SSO)
-- Benutzer
-  - Self-Service (z. B. Passwort zurücksetzen)
-- Cloud-Kunden
-  - Automatisch genutzt bei:
+## 👥 Who Uses Microsoft Entra ID?
+- IT Administrators
+  - Control access to resources & apps
+- Developers
+  - Implement authentication (e.g., SSO)
+- Users
+  - Self-Service (e.g., password reset)
+- Cloud Customers
+  - Automatically used for:
     - Azure
     - Microsoft 365
     - Dynamics
 
 ---
 
-## ⚙️ Hauptfunktionen
+## ⚙️ Main Features
 
-### 🔐 Authentication (Authentifizierung)
-- Identitätsprüfung vor Zugriff
+### 🔐 Authentication
+- Identity verification before access
 - Features:
   - Multi-Factor Authentication (MFA)
   - Self-Service Password Reset
   - Smart Lockout
-  - Passwort-Richtlinien
+  - Password policies
 
 ---
 
 ### 🔑 Single Sign-On (SSO)
-- Ein Login → Zugriff auf mehrere Anwendungen
-- Vorteile:
-  - Benutzerfreundlichkeit
-  - Sicherheit
+- One login → Access to multiple applications
+- Benefits:
+  - User-friendly
+  - Security
 
 ---
 
 ### 📦 Application Management
-- Verwaltung von Apps (Cloud & On-Prem)
-- Beispiele:
-  - SaaS-Integration
+- Management of apps (cloud & on-prem)
+- Examples:
+  - SaaS integration
   - Application Proxy
-  - „My Apps“-Portal
+  - "My Apps" portal
 
 ---
 
 ### 💻 Device Management
-- Geräte registrieren & verwalten (z. B. via Intune)
+- Register & manage devices (e.g., via Intune)
 - Conditional Access:
-  - Zugriff nur von bekannten/vertrauenswürdigen Geräten
+  - Access only from known/trusted devices
 
 ---
 
-## 🔗 Verbindung mit On-Prem Active Directory
+## 🔗 Connection with On-Prem Active Directory
 
 ### Problem:
-- Ohne Verbindung:
-  - Zwei getrennte Identitäten (Cloud + On-Prem)
+- Without connection:
+  - Two separate identities (cloud + on-prem)
 
-### Lösung:
+### Solution:
 - Microsoft Entra Connect
-  - Synchronisiert Benutzer zwischen:
+  - Synchronizes users between:
     - On-Prem AD
     - Microsoft Entra ID
 
-### Vorteile:
-- Einheitliche Identität
-- SSO über Cloud & On-Prem
-- MFA & Self-Service überall nutzbar
+### Benefits:
+- Unified identity
+- SSO across cloud & on-prem
+- MFA & self-service available everywhere
 
 ---
 
 ## 🏢 Microsoft Entra Domain Services
 
-### 📌 Was ist das?
-- Bietet klassische AD-Funktionen ohne eigene Domain Controller
+### 📌 What is this?
+- Provides classic AD functionality without own domain controllers
 
-### Unterstützt:
+### Supports:
 - Domain Join
 - Group Policy
 - LDAP
@@ -94,63 +94,63 @@
 
 ---
 
-### 🎯 Wann verwenden?
-- Für Legacy-Anwendungen, die:
-  - kein modernes Auth unterstützen
-- „Lift & Shift“ Szenarien:
-  - Alte Apps in die Cloud migrieren
+### 🎯 When to use?
+- For legacy applications that:
+  - Don't support modern auth
+- "Lift & Shift" scenarios:
+  - Migrate old apps to the cloud
 
 ---
 
-### ⚙️ Funktionsweise
-- Azure erstellt:
-  - 2 gemanagte Domain Controller (Replica Set)
-- Kein Aufwand für:
-  - Patchen
-  - Wartung
-  - Konfiguration
+### ⚙️ How it works
+- Azure creates:
+  - 2 managed domain controllers (Replica Set)
+- No effort needed for:
+  - Patching
+  - Maintenance
+  - Configuration
 
-➡️ Alles wird von Azure gemanagt (inkl. Backup & Verschlüsselung)
+➡️ Everything is managed by Azure (incl. backup & encryption)
 
 ---
 
-## 🔄 Synchronisation
+## 🔄 Synchronization
 
-### 🔁 Richtung:
-- Einweg-Sync:
+### 🔁 Direction:
+- One-way sync:
   - Entra ID → Domain Services
 
-### Hybrid-Szenario:
+### Hybrid scenario:
 On-Prem AD
 ↓ (Entra Connect)
 Microsoft Entra ID
-↓ (automatisch)
+↓ (automatic)
 Domain Services
 
 
-### Wichtig:
-- Änderungen in Domain Services:
-  - ❌ werden NICHT zurück synchronisiert
+### Important:
+- Changes in Domain Services:
+  - ❌ are NOT synchronized back
 
 ---
 
-## 🧩 Nutzung in Azure
-- VMs, Apps & Services können:
-  - Domain Join durchführen
-  - Authentifizierung nutzen (LDAP, Kerberos)
-  - Gruppenrichtlinien anwenden
+## 🧩 Usage in Azure
+- VMs, apps & services can:
+  - Perform domain join
+  - Use authentication (LDAP, Kerberos)
+  - Apply group policies
 
 ---
 
-# 🎯 Prüfungsrelevante Kernaussagen
+# 🎯 Exam-Relevant Core Statements
 
-- Microsoft Entra ID = zentrale Identity-Lösung in Azure
-- SSO = ein Login für viele Anwendungen
-- MFA erhöht Sicherheit
-- Entra Connect = Verbindung On-Prem ↔ Cloud
-- Domain Services = AD ohne Domain Controller verwalten
-- Synchronisation Domain Services = nur One-Way
-- Ideal für Legacy Apps in der Cloud
+- Microsoft Entra ID = central identity solution in Azure
+- SSO = one login for many applications
+- MFA increases security
+- Entra Connect = connection on-prem ↔ cloud
+- Domain Services = manage AD without domain controller
+- Synchronization Domain Services = only one-way
+- Ideal for legacy apps in the cloud
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)

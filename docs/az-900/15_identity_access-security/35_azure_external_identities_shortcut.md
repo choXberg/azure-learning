@@ -1,92 +1,92 @@
-# 🧠 External Identities – Eselsbrücken & Prüfungs-Shortcut (AZ-900)
+# 🧠 External Identities – Mnemonics & Exam Shortcut (AZ-900)
 
-## 🧩 Die 3 Modelle einfach merken
+## 🧩 Remember the 3 models simply
 
-### 🤝 B2B Collaboration → „Bring them in“
-- Externe Nutzer kommen **in deinen Tenant**
-- Werden als **Guest User** angelegt
-- Zugriff auf deine Apps & Ressourcen
+### 🤝 B2B Collaboration → "Bring them in"
+- External users come **into your tenant**
+- Created as **Guest User**
+- Access to your apps & resources
 
-💡 Bild:
-> „Externer bekommt einen Besucherausweis für mein Büro“
-
----
-
-### 🔗 B2B Direct Connect → „Stay where you are“
-- Externe bleiben **in ihrem eigenen Tenant**
-- Kein Guest User notwendig
-- Direkte Verbindung zwischen Tenants (Trust)
-
-💡 Bild:
-> „Wir arbeiten zusammen, aber jeder bleibt in seinem eigenen Büro“
+💡 Image:
+> "External gets a visitor badge for my office"
 
 ---
 
-### 👥 B2C (External ID for Customers) → „Build for customers“
-- Für **Kunden / Endnutzer**
-- Eigene Apps (SaaS / Custom Apps)
-- Eigener separater Tenant
+### 🔗 B2B Direct Connect → "Stay where you are"
+- Externals stay **in their own tenant**
+- No Guest User necessary
+- Direct connection between tenants (Trust)
 
-💡 Bild:
-> „Ich betreibe einen Shop für Kunden“
-
----
-
-## 🚀 Super-Merksätze
-
-- **B2B → Gast im eigenen Tenant**
-- **Direct Connect → Verbindung ohne Gast**
-- **B2C → Kunden & externe Nutzer (separat)**
+💡 Image:
+> "We work together, but each stays in their own office"
 
 ---
 
-## ⚡ 5-Sekunden-Prüfungs-Shortcut
+### 👥 B2C (External ID for Customers) → "Build for customers"
+- For **customers / end users**
+- Own apps (SaaS / Custom Apps)
+- Own separate tenant
 
-| Frage | Richtige Antwort |
+💡 Image:
+> "I run a shop for customers"
+
+---
+
+## 🚀 Super mnemonics
+
+- **B2B → Guest in own tenant**
+- **Direct Connect → Connection without guest**
+- **B2C → Customers & external users (separate)**
+
+---
+
+## ⚡ 5-Second Exam Shortcut
+
+| Question | Correct Answer |
 |------|-----------------|
-| Externer User greift auf meine App zu | **B2B Collaboration** |
-| Zwei Firmen arbeiten zusammen ohne Gäste | **B2B Direct Connect** |
-| App für Kunden (z. B. Login mit Google) | **B2C** |
+| External user accesses my app | **B2B Collaboration** |
+| Two companies work together without guests | **B2B Direct Connect** |
+| App for customers (e.g., login with Google) | **B2C** |
 
 ---
 
-## 🧠 Mini-Visualisierung
-B2B → [Gast in meinem Tenant]
-Direct Connect→ [Zwei Tenants verbunden]
-B2C → [Kunden außerhalb, eigener Tenant]
+## 🧠 Mini-Visualization
+B2B → [Guest in my tenant]
+Direct Connect→ [Two tenants connected]
+B2C → [Customers outside, own tenant]
 
 
 ---
 
-## ⚠️ Typische Prüfungsfallen
+## ⚠️ Typical exam traps
 
-### ❗ Falle 1
-> „Externe Benutzer greifen auf interne Ressourcen zu“
+### ❗ Trap 1
+> "External users access internal resources"
 
-➡️ ❌ Nicht B2C  
+➡️ ❌ Not B2C  
 ➡️ ✅ **B2B Collaboration**
 
 ---
 
-### ❗ Falle 2
-> „Benutzer bleiben in ihrem eigenen Tenant“
+### ❗ Trap 2
+> "Users stay in their own tenant"
 
-➡️ ❌ Nicht B2B  
+➡️ ❌ Not B2B  
 ➡️ ✅ **B2B Direct Connect**
 
 ---
 
-### ❗ Falle 3
-> „Consumer App / Kundenlogin“
+### ❗ Trap 3
+> "Consumer App / Customer login"
 
-➡️ ❌ Nicht B2B  
+➡️ ❌ Not B2B  
 ➡️ ✅ **B2C**
 
 ---
 
-## 🎯 Ultra-Kurz-Merksatz (Prüfung)
+## 🎯 Ultra-Short Mnemonic (Exam)
 
-👉 **„B2B = reinholen, Direct = verbinden, B2C = verkaufen“**
+👉 **"B2B = bring in, Direct = connect, B2C = sell"**
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)

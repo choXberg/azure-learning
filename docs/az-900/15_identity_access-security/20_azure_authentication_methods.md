@@ -1,179 +1,179 @@
 # 🔐 Azure Authentication Methods (AZ-900)
 
-## 🧠 Überblick
-- **Authentifizierung (Authentication)** = Identitätsprüfung (User, Service, Gerät)
-- Ziel:
-  - Sicherheit erhöhen
-  - Benutzerfreundlichkeit verbessern
+## 🧠 Overview
+- **Authentication** = Identity verification (User, Service, Device)
+- Goal:
+  - Increase security
+  - Improve user-friendliness
 
 ---
 
-## 🔑 Wichtige Methoden
+## 🔑 Important Methods
 
-- Passwort
+- Password
 - Single Sign-On (SSO)
 - Multifactor Authentication (MFA)
 - Passwordless Authentication
 
 ---
 
-## ⚖️ Sicherheit vs. Komfort
+## ⚖️ Security vs. Comfort
 
-| Methode        | Sicherheit | Komfort |
+| Method        | Security | Comfort |
 |---------------|-----------|--------|
-| Passwort       | ❌ Niedrig | ✅ Hoch |
-| MFA            | ✅ Hoch    | ⚖️ Mittel |
-| Passwordless   | ✅ Sehr hoch | ✅ Hoch |
+| Password       | ❌ Low | ✅ High |
+| MFA            | ✅ High    | ⚖️ Medium |
+| Passwordless   | ✅ Very High | ✅ High |
 
-👉 **Passwordless = beste Kombination aus Sicherheit & Usability**
+👉 **Passwordless = best combination of security & usability**
 
 ---
 
 ## 🔑 Single Sign-On (SSO)
 
-### 📌 Was ist das?
-- Ein Login → Zugriff auf mehrere Anwendungen
+### 📌 What is this?
+- One login → Access to multiple applications
 
-### ✅ Vorteile:
-- Weniger Passwörter („Password Sprawl“ reduzieren)
-- Weniger Reset-/Lockout-Probleme
-- Einfacheres User-Management
+### ✅ Benefits:
+- Fewer passwords (reduce "Password Sprawl")
+- Fewer reset/lockout problems
+- Simpler user management
 
-### ⚠️ Wichtig:
-- Sicherheit hängt vom **ersten Login** ab
+### ⚠️ Important:
+- Security depends on **first login**
 
 ---
 
 ## 🔐 Multifactor Authentication (MFA)
 
-### 📌 Was ist das?
-- Zusätzlicher Faktor beim Login
+### 📌 What is this?
+- Additional factor during login
 
-### 🔑 Drei Faktoren:
+### 🔑 Three Factors:
 
-1. **Wissen** (Something you know)
-   - Passwort, PIN
+1. **Knowledge** (Something you know)
+   - Password, PIN
 
-2. **Besitz** (Something you have)
+2. **Possession** (Something you have)
    - Smartphone, Token
 
-3. **Sein** (Something you are)
-   - Fingerabdruck, Gesicht
+3. **Inherence** (Something you are)
+   - Fingerprint, Face
 
 ---
 
-### ✅ Vorteil:
-- Passwort allein reicht nicht mehr → deutlich sicherer
+### ✅ Benefit:
+- Password alone is not enough → much more secure
 
 ---
 
 ## 🔐 Microsoft Entra MFA
-- Azure-Service für MFA
-- Beispiele:
-  - SMS / Anruf
-  - App-Notification (z. B. Authenticator)
+- Azure service for MFA
+- Examples:
+  - SMS / Call
+  - App Notification (e.g., Authenticator)
 
 ---
 
 ## 🚫 Passwordless Authentication
 
-### 📌 Was ist das?
-- Kein Passwort mehr nötig
-- Login mit:
-  - Gerät + Biometrie oder PIN
+### 📌 What is this?
+- No password needed
+- Login with:
+  - Device + Biometrics or PIN
 
-### ✅ Vorteile:
-- Kein Passwort-Diebstahl möglich
-- Bessere Usability
-- Sehr hohe Sicherheit
+### ✅ Benefits:
+- No password theft possible
+- Better usability
+- Very high security
 
 ---
 
-## 🔑 Passwordless Optionen in Azure
+## 🔑 Passwordless Options in Azure
 
 ### 💻 Windows Hello for Business
-- Für persönliche Firmen-PCs
-- Login mit:
+- For personal company PCs
+- Login with:
   - PIN
-  - Biometrie
-- Gerätegebunden → sehr sicher
-- Unterstützt SSO
+  - Biometrics
+- Device-bound → very secure
+- Supports SSO
 
 ---
 
 ### 📱 Microsoft Authenticator App
-- Smartphone wird Login-Faktor
-- Ablauf:
-  - Push-Nachricht
-  - Nummer bestätigen
-  - Biometrie / PIN
+- Smartphone becomes login factor
+- Process:
+  - Push notification
+  - Confirm number
+  - Biometrics / PIN
 
 ---
 
 ### 🔑 FIDO2 Security Keys
-- Hardware-Token (USB, NFC, Bluetooth)
-- Kein Passwort notwendig
-- Phishing-resistent
+- Hardware token (USB, NFC, Bluetooth)
+- No password necessary
+- Phishing-resistant
 
 ---
 
-# 🔐 Authentication Methods Vergleich (AZ-900)
+## 🔐 Authentication Methods Comparison (AZ-900)
 
-| Kriterium            | Passwort              | SSO (Single Sign-On)         | MFA (Multifactor Auth)       | Passwordless                |
+| Criterion            | Password              | SSO (Single Sign-On)         | MFA (Multifactor Auth)       | Passwordless                |
 |----------------------|----------------------|------------------------------|------------------------------|-----------------------------|
-| Grundidee            | Ein Faktor (Wissen)  | Ein Login für viele Apps     | Mehrere Faktoren             | Kein Passwort               |
-| Sicherheit           | ❌ Niedrig           | ⚠️ Abhängig vom Login        | ✅ Hoch                      | ✅ Sehr hoch                |
-| Benutzerfreundlichkeit | ✅ Hoch            | ✅ Sehr hoch                 | ⚖️ Mittel                   | ✅ Hoch                     |
-| Risiko               | Hoch (Phishing, Leak)| Mittel (abhängig von Login)  | Niedrig                      | Sehr niedrig                |
-| Typische Faktoren    | Passwort             | Passwort / Token             | Passwort + Gerät/Biometrie   | Gerät + Biometrie/PIN       |
-| Schutz vor Phishing  | ❌ Nein              | ❌ Nein                      | ⚠️ Teilweise                 | ✅ Ja (z. B. FIDO2)         |
-| Abhängigkeit Passwort| ✅ Ja                | ✅ Ja                        | ✅ Ja                        | ❌ Nein                     |
-| Beispiele            | Standard Login       | Azure / M365 Login           | SMS, Authenticator App       | Windows Hello, FIDO2        |
-| Prüfungsbewertung    | Schwächste Methode   | Komfort-Feature              | Standard-Sicherheitsmaßnahme | Beste Lösung                |
+| Basic Idea            | One factor (Knowledge)  | One login for many apps     | Multiple factors             | No password               |
+| Security           | ❌ Low           | ⚠️ Depends on login        | ✅ High                      | ✅ Very High                |
+| User-Friendliness | ✅ High            | ✅ Very High                 | ⚖️ Medium                   | ✅ High                     |
+| Risk               | High (Phishing, Leak)| Medium (depends on login)  | Low                      | Very Low                |
+| Typical Factors    | Password             | Password / Token             | Password + Device/Biometrics   | Device + Biometrics/PIN       |
+| Phishing Protection  | ❌ No              | ❌ No                      | ⚠️ Partial                 | ✅ Yes (e.g., FIDO2)         |
+| Password Dependency| ✅ Yes                | ✅ Yes                        | ✅ Yes                        | ❌ No                     |
+| Examples            | Standard Login       | Azure / M365 Login           | SMS, Authenticator App       | Windows Hello, FIDO2        |
+| Exam Rating    | Weakest Method   | Comfort Feature              | Standard Security Measure | Best Solution                |
 
 ---
 
 ## 🧠 Schnell-Merksätze
 
-- **Passwort** → einfach, aber unsicher  
-- **SSO** → bequem, aber nicht automatisch sicher  
-- **MFA** → Standard für sichere Systeme  
-- **Passwordless** → Zukunft (sicher + bequem)
+- **Password** → simple, but insecure  
+- **SSO** → convenient, but not automatically secure  
+- **MFA** → standard for secure systems  
+- **Passwordless** → Future (secure + convenient)
 
 ---
 
-## 🎯 Typische Prüfungslogik
+## 🎯 Typical Exam Logic
 
-👉 Frage: *Welche Methode bietet höchste Sicherheit UND Komfort?*  
+👉 Question: *Which method offers highest security AND comfort?*  
 ➡️ **Passwordless**
 
-👉 Frage: *Welche Methode reduziert Passwort-Flut?*  
+👉 Question: *Which method reduces password flood?*  
 ➡️ **SSO**
 
-👉 Frage: *Welche Methode schützt bei gestohlenem Passwort?*  
+👉 Question: *Which method protects against stolen password?*  
 ➡️ **MFA**
 
-👉 Frage: *Welche Methode ist am anfälligsten für Angriffe?*  
-➡️ **Passwort**
+👉 Question: *Which method is most vulnerable to attacks?*  
+➡️ **Password**
 
 ---
 
-## 🎯 Prüfungsrelevante Kernaussagen
+## 🎯 Exam-relevant Key Statements
 
-- **SSO** = ein Login für viele Apps
-- **MFA** = mehrere Faktoren → höhere Sicherheit
-- **Passwordless** = sicherste + komfortabelste Methode
-- MFA basiert auf:
-  - Wissen
-  - Besitz
-  - Biometrie
-- FIDO2 Keys = besonders sicher (kein Passwort, kein Phishing)
+- **SSO** = one login for many apps
+- **MFA** = multiple factors → higher security
+- **Passwordless** = safest + most comfortable method
+- MFA is based on:
+  - Knowledge
+  - Possession
+  - Biometry
+- FIDO2 Keys = particularly secure (no password, no phishing)
 
 ---
 
-## 🧠 Merksatz
+## 🧠 Mnemonic
 
-👉 **„Je weniger Passwort, desto sicherer.“**
+👉 **"The less password, the safer."**
 ---
 ### Navigation
 - [Parent: Module Overview](README.md)

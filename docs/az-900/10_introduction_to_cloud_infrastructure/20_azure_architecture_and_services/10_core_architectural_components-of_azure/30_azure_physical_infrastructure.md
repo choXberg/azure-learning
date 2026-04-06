@@ -138,26 +138,26 @@
 * Azure Government (US)
 * Azure China
 
-## 🧠 Mentales Modell (sehr wichtig!)
-Geography (z. B. Europe)
+## 🧠 Mental Model (very important!)
+Geography (e.g. Europe)
     ↓
-Region (z. B. West Europe)
+Region (e.g. West Europe)
     ↓
-Availability Zone (z. B. Zone 1, 2, 3)
+Availability Zone (e.g. Zone 1, 2, 3)
     ↓
-Datacenter (physische Gebäude)
+Datacenter (physical buildings)
 
 ---
 
-## 🎯 Ultra-Kompakte Prüfungs-Merksätze
+## 🎯 Ultra-Compact Exam Mnemonics
 - Availability Zone = isolated datacenter
-- Zonal = du bist verantwortlich
-- Zone-redundant = Azure kümmert sich
-- Region Pair = Backup auf Region-Ebene
+- Zonal = you are responsible
+- Zone-redundant = Azure takes care
+- Region Pair = Backup at region level
 
-## Wichtig
-- Hierarchie (Geo → Region → Zone → DC)
-- 3 Zonen nebeneinander
+## Important
+- Hierarchy (Geo → Region → Zone → DC)
+- 3 zones next to each other
 - Zonal vs Redundant vs Global
 
 ---
