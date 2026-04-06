@@ -133,3 +133,7 @@ Each storage service has its own endpoint format:
 - Storage account name must be globally unique
 - Each service has its own endpoint URL
 - Redundancy options define durability and availability
+---
+- [Next: Azure Storage Redundancy Options](20_azure_storage_redundancy_options.md)
+- [Home](../../../README.md)
+

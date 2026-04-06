@@ -65,3 +65,10 @@
 
 ---
 [Benefits of using cloud services](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Security & Governance (Cloud Benefits)](30_benefits_of_security_and_governance_in_the_cloud.md)
+- [Next: # Sustainability (Cloud Benefits)](50_sustainability_considerations_in_the_cloud.md)
+- [Home](../README.md)
+

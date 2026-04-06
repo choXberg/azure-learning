@@ -117,3 +117,7 @@ Key advantage:
 - Supports private DNS zones for VNets
 - Alias records auto-update when IP changes
 - Cannot buy domains directly via Azure DNS
+---
+- [Previous: Describe Azure ExpressRoute](30_azure_expressroute.md)
+- [Home](../../../README.md)
+

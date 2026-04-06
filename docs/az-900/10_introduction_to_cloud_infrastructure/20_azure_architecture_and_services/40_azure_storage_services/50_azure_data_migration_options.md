@@ -137,3 +137,8 @@ Azure Data Box is a physical data transfer solution.
   - Full environment migration
   - Continuous or staged migration
 - Data Box = offline, Azure Migrate = online
+---
+- [Previous: Describe Azure Storage Services](40_azure_storage_services.md)
+- [Next: Identify Azure File Movement Options](60_azure_file_movement_options.md)
+- [Home](../../../README.md)
+

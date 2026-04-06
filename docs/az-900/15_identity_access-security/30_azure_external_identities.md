@@ -137,3 +137,10 @@ Externe Nutzer können sich anmelden mit:
 ## 🧠 Merksatz
 
 👉 **„Extern anmelden – intern kontrollieren.“**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Azure Authentication Methods (AZ-900)](20_azure_authentication_methods.md)
+- [Next: 🧠 External Identities – Eselsbrücken & Prüfungs-Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
+- [Home](../README.md)
+

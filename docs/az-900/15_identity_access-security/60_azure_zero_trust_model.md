@@ -103,3 +103,10 @@
 ## 🧠 Quick Memory Aid
 
 👉 **"Never trust, always verify."**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Azure Role-Based Access Control (RBAC)](50_azure_role_based_access_control.md)
+- [Next: 🛡️ Defense-in-Depth (AZ-900)](70_azure_defense-in-depth.md)
+- [Home](../README.md)
+

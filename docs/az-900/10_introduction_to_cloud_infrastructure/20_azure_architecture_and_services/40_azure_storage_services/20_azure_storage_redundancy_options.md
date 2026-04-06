@@ -114,3 +114,8 @@ Pros:
 - RA-GRS = read access to secondary region
 - GZRS = zones + geo replication
 - RA-GZRS = highest availability option
+---
+- [Previous: Describe Azure Storage Accounts](10_azure_storage_accounts.md)
+- [Next: Azure Storage Services Overview](30_azure_storage_services_overview.md)
+- [Home](../../../README.md)
+

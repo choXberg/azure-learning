@@ -79,3 +79,10 @@
 
 👉 "Managed database / runtime environment"
 → PaaS
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Infrastructure as a Service (IaaS)](10_infrastructure_as_a_service.md)
+- [Next: # Software as a Service (SaaS)](30_software_as_a_service.md)
+- [Home](../README.md)
+

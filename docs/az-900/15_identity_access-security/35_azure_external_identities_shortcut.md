@@ -87,3 +87,10 @@ B2C → [Kunden außerhalb, eigener Tenant]
 ## 🎯 Ultra-Kurz-Merksatz (Prüfung)
 
 👉 **„B2B = reinholen, Direct = verbinden, B2C = verkaufen“**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🌐 Azure External Identities (AZ-900)](30_azure_external_identities.md)
+- [Next: 🔐 Azure Conditional Access (AZ-900)](40_azure_conditional_access.md)
+- [Home](../README.md)
+

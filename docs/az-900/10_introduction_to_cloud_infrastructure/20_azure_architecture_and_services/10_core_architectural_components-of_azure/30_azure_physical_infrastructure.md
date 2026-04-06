@@ -186,3 +186,10 @@ Datacenter (physische Gebäude)
 
 👉 "Global services not tied to region"
 → Non-regional services
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Azure Accounts & Subscriptions](20_azure_accounts.md)
+- [Next: Azure Management Infrastructure](40_azure-management-infrastructure.md)
+- [Home](../../../README.md)
+

@@ -137,3 +137,10 @@
 ---
 
 [Cloud Concepts](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: ☁️ Consumption-Based Model (Pay-as-you-go)](50_consumption_based_model.md)
+- [Next: Azure Pricing & Cost Management (AZ-900)](cheat_sheet.md)
+- [Home](../../README.md)
+

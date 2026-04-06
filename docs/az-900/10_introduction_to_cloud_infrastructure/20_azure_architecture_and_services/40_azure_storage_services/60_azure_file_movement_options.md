@@ -151,3 +151,7 @@ Benefits:
 - Azure File Sync = bi-directional sync with on-prem servers
 - File Sync supports cloud tiering (hot local, cold in cloud)
 - Use AzCopy for automation, Storage Explorer for manual tasks
+---
+- [Previous: Identify Azure Data Migration Options](50_azure_data_migration_options.md)
+- [Home](../../../README.md)
+

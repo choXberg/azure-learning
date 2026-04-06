@@ -139,3 +139,10 @@ Azure provides services to build:
 > **AI Services = prebuilt AI**  
 > **Azure ML = build your own models**  
 > **IoT = connect devices**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: ⚡ Azure Functions – Summary (AZ-900 relevant)](40_azure_functions.md)
+- [Next: 🌐 Azure Application Hosting Options – Summary (AZ-900 relevant)](60_azure_application_hosting_options.md)
+- [Home](../../../README.md)
+

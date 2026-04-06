@@ -75,3 +75,9 @@
 
 👉 "Who manages physical hardware?"
 → Cloud provider
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Next: # Platform as a Service (PaaS)](20_platform_as_a_service.md)
+- [Home](../README.md)
+

@@ -119,3 +119,10 @@ Container = **leichtgewichtiger + schneller + skalierbarer**
 > **ACI = schnell starten**  
 > **Container Apps = einfach skalieren**  
 > **AKS = komplex orchestrieren**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: Azure Virtual Desktop (AVD)](20_azure_virtual_desktop.md)
+- [Next: ⚡ Azure Functions – Summary (AZ-900 relevant)](40_azure_functions.md)
+- [Home](../../../README.md)
+

@@ -176,3 +176,9 @@ Improve resiliency within a region.
 | Scale Sets          | Auto scaling |
 | Availability Sets   | High availability |
 | Naming              | Encodes specs |
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Next: Azure Virtual Desktop (AVD)](20_azure_virtual_desktop.md)
+- [Home](../../../README.md)
+

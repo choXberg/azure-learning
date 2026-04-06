@@ -129,5 +129,9 @@
 → Storage (Blob)
 
 ---
-
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Next: # Azure Accounts & Subscriptions](20_azure_accounts.md)
+- [Home](../../../README.md)
 

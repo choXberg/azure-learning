@@ -139,3 +139,10 @@ Choosing the right cloud model depends on:
 ---
 
 [Cloud Concepts](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: ☁️ Cloud Models – Kurz & Knackig](30_cloud_models.md)
+- [Next: ☁️ Consumption-Based Model (Pay-as-you-go)](50_consumption_based_model.md)
+- [Home](../../README.md)
+

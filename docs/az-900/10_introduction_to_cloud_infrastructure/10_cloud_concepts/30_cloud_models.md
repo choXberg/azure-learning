@@ -84,3 +84,10 @@ Daten/Apps flexibel verteilen
 
 ---
 [Cloud Concepts](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Shared Responsibility Model – Kurz & Knackig](20_shared_responsibility_model.md)
+- [Next: Cloud Models – Use Cases](40_cloud_models_use_cases.md)
+- [Home](../../README.md)
+

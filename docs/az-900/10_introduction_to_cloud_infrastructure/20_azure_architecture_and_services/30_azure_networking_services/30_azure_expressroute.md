@@ -224,3 +224,8 @@ Some services still use the public internet:
 - More reliable and faster than VPN
 - Global Reach connects on-premises sites via Microsoft backbone
 - Still requires internet for some auxiliary services (DNS, CRL, CDN)
+---
+- [Previous: Describe Azure Virtual Private Networks (VPN)](20_azure_virtual_private.md)
+- [Next: Describe Azure DNS](40_azure_dns.md)
+- [Home](../../../README.md)
+

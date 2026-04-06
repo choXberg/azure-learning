@@ -186,3 +186,10 @@
 # 🚀 Final Super Shortcut
 
 👉 **Identity + Access + Data + Layers = Azure Security**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: ⚡ AZ-900 Last-Minute Cheat Sheet (1-Minute Review)](cheat_sheet_last_minute.md)
+- [Next: 🧪 AZ-900 Practice Questions (with Traps)](practice_questions.md)
+- [Home](../README.md)
+

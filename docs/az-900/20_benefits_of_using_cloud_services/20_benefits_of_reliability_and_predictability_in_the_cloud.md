@@ -89,3 +89,10 @@
 
 ---
 [Benefits of using cloud services](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # High Availability & Scalability (Cloud Benefits)](10_benefits_of_high_availability_and_scalability_in_the_cloud.md)
+- [Next: # Security & Governance (Cloud Benefits)](30_benefits_of_security_and_governance_in_the_cloud.md)
+- [Home](../README.md)
+

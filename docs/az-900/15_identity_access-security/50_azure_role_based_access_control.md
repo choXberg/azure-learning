@@ -108,3 +108,10 @@ Example:
 ## 🧠 Quick Memory Aid
 
 👉 **"RBAC = Who can do what, on which resource."**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Azure Conditional Access (AZ-900)](40_azure_conditional_access.md)
+- [Next: 🔐 Zero Trust Model (AZ-900)](60_azure_zero_trust_model.md)
+- [Home](../README.md)
+

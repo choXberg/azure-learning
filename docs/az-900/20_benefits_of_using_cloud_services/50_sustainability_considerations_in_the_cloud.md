@@ -67,3 +67,10 @@
 
 ---
 [Benefits of using cloud services](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Manageability (Cloud Benefits)](40_benefits_of_manageability_in_the_cloud.md)
+- [Next: # Sustainability (Cloud Benefits)](README.md)
+- [Home](../README.md)
+

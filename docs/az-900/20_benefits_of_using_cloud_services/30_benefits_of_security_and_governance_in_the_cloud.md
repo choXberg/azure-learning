@@ -91,3 +91,10 @@
 
 ---
 [Benefits of using cloud services](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Reliability & Predictability (Cloud Benefits)](20_benefits_of_reliability_and_predictability_in_the_cloud.md)
+- [Next: # Manageability (Cloud Benefits)](40_benefits_of_manageability_in_the_cloud.md)
+- [Home](../README.md)
+

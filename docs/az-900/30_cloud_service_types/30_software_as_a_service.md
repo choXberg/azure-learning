@@ -74,3 +74,10 @@
 
 👉 "Lowest operational effort"
 → SaaS
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: # Platform as a Service (PaaS)](20_platform_as_a_service.md)
+- [Next: # Software as a Service (SaaS)](README.md)
+- [Home](../README.md)
+

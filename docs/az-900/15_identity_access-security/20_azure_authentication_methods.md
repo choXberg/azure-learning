@@ -174,3 +174,10 @@
 ## 🧠 Merksatz
 
 👉 **„Je weniger Passwort, desto sicherer.“**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 📘 Azure Directory Services (AZ-900)](10_azure_directory_services.md)
+- [Next: 🌐 Azure External Identities (AZ-900)](30_azure_external_identities.md)
+- [Home](../README.md)
+

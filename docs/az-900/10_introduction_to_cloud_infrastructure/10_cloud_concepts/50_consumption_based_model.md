@@ -70,3 +70,10 @@ nicht nutzen → nichts zahlen
 ---
 
 [Cloud Concepts](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: Cloud Models – Use Cases](40_cloud_models_use_cases.md)
+- [Next: Azure Pricing & Cost Management (AZ-900)](60_cloud_pricing_models.md)
+- [Home](../../README.md)
+

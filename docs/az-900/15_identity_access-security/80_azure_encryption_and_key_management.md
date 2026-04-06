@@ -107,3 +107,10 @@
 ## 🧠 Quick Memory Aid
 
 👉 **"Encrypt data everywhere, store keys securely."**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🛡️ Defense-in-Depth (AZ-900)](70_azure_defense-in-depth.md)
+- [Next: 🛡️ Microsoft Defender for Cloud (AZ-900)](90_azure_microsoft_defender_for_cloud.md)
+- [Home](../README.md)
+

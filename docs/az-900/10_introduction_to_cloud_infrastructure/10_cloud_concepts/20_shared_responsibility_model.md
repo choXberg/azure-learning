@@ -52,3 +52,10 @@ Verantwortung wird zwischen Kunde und Microsoft (Cloud Provider) aufgeteilt
 - Unterschied IaaS / PaaS / SaaS
 ---
 [Cloud Concepts](README.md)
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: ☁️ Cloud Computing – Kurz & Knackig](10_define_cloud_computing.md)
+- [Next: ☁️ Cloud Models – Kurz & Knackig](30_cloud_models.md)
+- [Home](../../README.md)
+

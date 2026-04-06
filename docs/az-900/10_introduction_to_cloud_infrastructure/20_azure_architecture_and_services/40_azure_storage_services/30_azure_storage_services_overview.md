@@ -111,3 +111,8 @@ Use case:
 - Queue Storage = async messaging
 - Table Storage = NoSQL key-value store
 - Choose service based on data type and usage pattern
+---
+- [Previous: Azure Storage Redundancy Options](20_azure_storage_redundancy_options.md)
+- [Next: Describe Azure Storage Services](40_azure_storage_services.md)
+- [Home](../../../README.md)
+

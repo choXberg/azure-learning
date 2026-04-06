@@ -65,3 +65,10 @@
 ## 🚀 Final Sentence
 
 👉 **"Verify identity, control access, protect data, layer security."**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🛡️ Microsoft Defender for Cloud (AZ-900)](90_azure_microsoft_defender_for_cloud.md)
+- [Next: 🛡️ AZ-900 Security Cheat Sheet](cheat_sheet.md)
+- [Home](../README.md)
+

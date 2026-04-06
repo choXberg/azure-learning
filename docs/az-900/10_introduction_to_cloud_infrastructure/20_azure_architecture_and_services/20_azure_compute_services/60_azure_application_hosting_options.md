@@ -152,3 +152,10 @@ Azure provides multiple ways to host applications:
 > **VM = control**  
 > **Containers = flexibility**  
 > **App Service = simplicity**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🤖 Azure AI, Machine Learning, and IoT/Edge – Summary (AZ-900 relevant)](50_azure_ai_ml_iot_edge_services.md)
+- [Next: 🌐 Azure Application Hosting Options – Summary (AZ-900 relevant)](README.md)
+- [Home](../../../README.md)
+

@@ -157,3 +157,10 @@ Features:
 ## 🧠 Quick Memory Aid
 
 👉 **"Assess → Secure → Defend"**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Encryption and Key Management in Azure (AZ-900)](80_azure_encryption_and_key_management.md)
+- [Next: ⚡ AZ-900 Last-Minute Cheat Sheet (1-Minute Review)](cheat_sheet_last_minute.md)
+- [Home](../README.md)
+

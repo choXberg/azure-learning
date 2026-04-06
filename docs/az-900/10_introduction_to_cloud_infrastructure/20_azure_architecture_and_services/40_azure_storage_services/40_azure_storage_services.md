@@ -196,3 +196,8 @@ Example:
 - Azure Disks = VM storage (block-level)
 - Table Storage = NoSQL key-value store
 - Choose service based on data type and usage pattern
+---
+- [Previous: Azure Storage Services Overview](30_azure_storage_services_overview.md)
+- [Next: Identify Azure Data Migration Options](50_azure_data_migration_options.md)
+- [Home](../../../README.md)
+

@@ -180,3 +180,7 @@ Benefits:
   - Service Endpoint: secure service access over VNet
   - Private Endpoint: private IP inside VNet
 - ExpressRoute provides private connectivity without using the internet
+---
+- [Next: Describe Azure Virtual Private Networks (VPN)](20_azure_virtual_private.md)
+- [Home](../../../README.md)
+

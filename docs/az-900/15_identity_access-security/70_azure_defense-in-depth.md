@@ -111,3 +111,10 @@
 ## 🧠 Quick Memory Aid
 
 👉 **"Layered security protects data at the core."**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🔐 Zero Trust Model (AZ-900)](60_azure_zero_trust_model.md)
+- [Next: 🔐 Encryption and Key Management in Azure (AZ-900)](80_azure_encryption_and_key_management.md)
+- [Home](../README.md)
+

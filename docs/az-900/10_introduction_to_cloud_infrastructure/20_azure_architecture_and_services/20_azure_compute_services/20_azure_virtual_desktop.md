@@ -227,4 +227,11 @@ These services differ mainly in:
 
 - VM → most control  
 - AVD → medium  
-- App Service → least control  
+- App Service → least control
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: Azure Virtual Machines (VMs)](10_azure_virtual_machines.md)
+- [Next: 📦 Azure Containers – Zusammenfassung (AZ-900 relevant)](30_azure_containers.md)
+- [Home](../../../README.md)
+

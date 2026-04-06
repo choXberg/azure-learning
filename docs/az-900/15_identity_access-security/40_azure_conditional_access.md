@@ -119,3 +119,10 @@ Aktion:
 ## 🧠 Merksatz
 
 👉 **„Zugriff nur unter den richtigen Bedingungen.“**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🧠 External Identities – Eselsbrücken & Prüfungs-Shortcut (AZ-900)](35_azure_external_identities_shortcut.md)
+- [Next: 🔐 Azure Role-Based Access Control (RBAC)](50_azure_role_based_access_control.md)
+- [Home](../README.md)
+

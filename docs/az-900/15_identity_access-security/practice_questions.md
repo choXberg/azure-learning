@@ -127,4 +127,11 @@ D) Encryption
 - "partners" → B2B  
 - "customers" → B2C  
 - "layers" → Defense-in-Depth  
-- "verify every request" → Zero Trust  
+- "verify every request" → Zero Trust
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 🛡️ AZ-900 Security Cheat Sheet](cheat_sheet.md)
+- [Next: 🧪 AZ-900 Practice Questions (with Traps)](README.md)
+- [Home](../README.md)
+

@@ -36,4 +36,10 @@ danach wieder runter
 
 👉 Cloud = IT-Ressourcen on-demand über Internet, skalierbar & nutzungsbasiert
 
-[Cloud Concepts](README.md)
+---
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Next: 🔐 Shared Responsibility Model – Kurz & Knackig](20_shared_responsibility_model.md)
+- [Home](../../README.md)
+

@@ -57,9 +57,9 @@ Module/
 ---
 
 ### 10 – Introduction to Cloud Infrastructure
-- Cloud concepts  
-- Azure architecture & services  
-- Compute, networking, and storage  
+- Cloud concepts and core architectural principles  
+- Azure compute, networking, and storage services  
+- Pricing, shared responsibility, and consumption models  
 
 📂 Path: `10_introduction_to_cloud_infrastructure/`
 
@@ -74,7 +74,7 @@ Module/
 - Encryption & Key Management  
 - Microsoft Defender for Cloud  
 
-📂 Path: `15_azure_identity_access-security/`
+📂 Path: `15_identity_access-security/`
 
 ---
 
@@ -127,7 +127,7 @@ This repository follows a layered learning approach:
 
 ## 🛠️ Notes
 
-- All content is written in **English** to match exam language  
+- Content is written in a mix of **German and English** to support learning and exam terminology  
 - Focus is on **conceptual clarity**, not just memorization  
 - Structure is designed for **quick revision before the exam**  
 
@@ -150,3 +150,8 @@ After completing AZ-900:
 ## 🧠 Final Thought
 
 > *"Learn it once, understand it forever."*
+---
+---
+### Navigation
+- [Exam Summary](./00_overview/exam-summary.md)
+

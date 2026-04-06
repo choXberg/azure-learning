@@ -151,3 +151,9 @@ Domain Services
 - Domain Services = AD ohne Domain Controller verwalten
 - Synchronisation Domain Services = nur One-Way
 - Ideal für Legacy Apps in der Cloud
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Next: 🔐 Azure Authentication Methods (AZ-900)](20_azure_authentication_methods.md)
+- [Home](../README.md)
+

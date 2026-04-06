@@ -124,3 +124,10 @@ Use when you need:
 > **Event triggers execution**  
 > **No event = no cost**  
 > **Auto-scale + serverless**
+---
+### Navigation
+- [Parent: Module Overview](README.md)
+- [Previous: 📦 Azure Containers – Zusammenfassung (AZ-900 relevant)](30_azure_containers.md)
+- [Next: 🤖 Azure AI, Machine Learning, and IoT/Edge – Summary (AZ-900 relevant)](50_azure_ai_ml_iot_edge_services.md)
+- [Home](../../../README.md)
+

@@ -145,3 +145,8 @@ Requirements:
 - Active/Active = higher availability with multiple tunnels
 - ExpressRoute + VPN = hybrid high-availability setup
 - Zone-redundant gateways protect against availability zone failures
+---
+- [Previous: Describe Azure Virtual Networking](10_azure_virtual_networking.md)
+- [Next: Describe Azure ExpressRoute](30_azure_expressroute.md)
+- [Home](../../../README.md)
+
