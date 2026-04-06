@@ -101,3 +101,9 @@
 ## 🧠 Quick Memory Aid
 
 👉 **"Stable = Reservation, Flexible = Savings, Cheap = Spot"**
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: 💰 Factors That Affect Costs in Azure (AZ-900)](10_cost_management_in_azure.md)
+- [Home](../../../README.md)
+

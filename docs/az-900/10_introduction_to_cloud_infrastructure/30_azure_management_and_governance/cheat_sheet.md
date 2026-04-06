@@ -49,3 +49,8 @@
 ## 🧠 Ultra Memory
 
 👉 **"Track → Control → Optimize"**
+---
+### Navigation
+- [Next: ⚡ Azure Management & Governance – Cheat Sheet (AZ-900)](cheat_sheet.md)
+- [Home](../../README.md)
+

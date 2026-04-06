@@ -80,3 +80,9 @@ To change or delete a locked resource:
   - Are **inherited**
   - Override RBAC permissions
 - Must be **removed before changes** can be made
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: Microsoft Purview – Summary](10_microsoft_purview.md)
+- [Home](../../../README.md)
+

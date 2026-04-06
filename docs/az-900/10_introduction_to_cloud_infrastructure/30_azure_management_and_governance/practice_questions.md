@@ -115,3 +115,8 @@ C) Cross-region
 D) Intercontinental  
 
 👉 **Answer: B**
+---
+### Navigation
+- [Next: ⚡ Azure Management & Governance – Cheat Sheet (AZ-900)](cheat_sheet.md)
+- [Home](../../README.md)
+

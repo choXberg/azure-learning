@@ -121,4 +121,10 @@ If the question is about:
 - **Data governance** → Microsoft Purview  
 - **Enforcing rules** → Azure Policy  
 - **Preventing deletion/changes** → Resource Locks  
-- **Viewing compliance reports** → Service Trust Portal  
+- **Viewing compliance reports** → Service Trust Portal
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: Microsoft Purview – Summary](10_microsoft_purview.md)
+- [Home](../../../README.md)
+

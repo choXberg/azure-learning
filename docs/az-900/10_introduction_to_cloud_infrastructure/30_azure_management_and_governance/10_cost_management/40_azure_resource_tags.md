@@ -163,3 +163,9 @@ Used for:
 ## 🧠 Quick Memory Aid
 
 👉 "Tag it to track it."
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: 💰 Factors That Affect Costs in Azure (AZ-900)](10_cost_management_in_azure.md)
+- [Home](../../../README.md)
+

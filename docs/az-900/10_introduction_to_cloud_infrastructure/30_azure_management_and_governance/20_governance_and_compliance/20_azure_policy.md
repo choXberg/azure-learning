@@ -133,3 +133,9 @@ Includes policies such as:
   - Custom policies
   - Policy grouping via **initiatives**
 - Enforces rules even with **AI-assisted changes**
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: Microsoft Purview – Summary](10_microsoft_purview.md)
+- [Home](../../../README.md)
+

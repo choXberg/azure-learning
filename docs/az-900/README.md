@@ -58,8 +58,8 @@ Module/
 
 ### 10 – Introduction to Cloud Infrastructure
 - Cloud concepts and core architectural principles  
-- Azure compute, networking, and storage services  
-- Pricing, shared responsibility, and consumption models  
+- Azure compute, networking, storage, and management services  
+- Pricing, governance, and consumption models  
 
 📂 Path: `10_introduction_to_cloud_infrastructure/`
 

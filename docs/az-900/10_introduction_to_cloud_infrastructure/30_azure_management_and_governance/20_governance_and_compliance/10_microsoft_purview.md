@@ -77,3 +77,9 @@ Provides centralized governance across diverse data sources, including:
   - **Data protection**
   - **Compliance requirements**
   - **Data visibility and control**
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: Microsoft Purview – Summary](10_microsoft_purview.md)
+- [Home](../../../README.md)
+

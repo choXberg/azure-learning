@@ -34,6 +34,19 @@
   - [Azure Data Migration Options](../10_introduction_to_cloud_infrastructure/20_azure_architecture_and_services/40_azure_storage_services/50_azure_data_migration_options.md)
   - [Azure File Movement Options](../10_introduction_to_cloud_infrastructure/20_azure_architecture_and_services/40_azure_storage_services/60_azure_file_movement_options.md)
 
+### Azure Management and Governance
+- [Azure Management and Governance Overview](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/README.md)
+  - [Factors Affecting Costs in Azure](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/10_cost_management/10_cost_management_in_azure.md)
+  - [Azure Pricing Calculator](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/10_cost_management/20_explore_the_pricing_calculator.md)
+  - [Microsoft Cost Management Tool](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/10_cost_management/30_the_microsoft_cost_management_tool.md)
+  - [Azure Resource Tags](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/10_cost_management/40_azure_resource_tags.md)
+  - [Cost Optimization Options](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/10_cost_management/50_cost_optimization_options_in_azure.md)
+  - [Microsoft Purview](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/20_governance_and_compliance/10_microsoft_purview.md)
+  - [Azure Policy](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/20_governance_and_compliance/20_azure_policy.md)
+  - [Purpose of Resource Locks](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/20_governance_and_compliance/30_purpose_of_resource_locks.md)
+  - [Service Trust Portal](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/20_governance_and_compliance/40_purpose_of_the_service_trust_portal.md)
+  - [Governance Comparison Cheat Sheet](../10_introduction_to_cloud_infrastructure/30_azure_management_and_governance/20_governance_and_compliance/50_comparison_cheat_sheet.md)
+
 ## 2. Benefits of Using Cloud Services
 - [High Availability and Scalability](../20_benefits_of_using_cloud_services/10_benefits_of_high_availability_and_scalability_in_the_cloud.md)
 - [Reliability and Predictability](../20_benefits_of_using_cloud_services/20_benefits_of_reliability_and_predictability_in_the_cloud.md)

@@ -125,3 +125,9 @@ Central place for all cost-related alerts
 ## 🧠 Quick Memory Aid
 
 👉 **"Analyze → Alert → Control"**
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: 💰 Factors That Affect Costs in Azure (AZ-900)](10_cost_management_in_azure.md)
+- [Home](../../../README.md)
+

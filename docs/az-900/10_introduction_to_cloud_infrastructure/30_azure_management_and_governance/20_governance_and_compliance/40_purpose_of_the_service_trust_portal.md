@@ -74,3 +74,9 @@ The portal provides:
   - Authenticated Microsoft account
   - NDA for some materials
 - Helps organizations meet **compliance and regulatory requirements**
+---
+### Navigation
+- [Parent: Module Overview](../README.md)
+- [Next: Microsoft Purview – Summary](10_microsoft_purview.md)
+- [Home](../../../README.md)
+
