@@ -70,3 +70,13 @@ Focus on:
 
 * Differences (Auth vs AuthZ)
 * Security concepts (Zero Trust, Defense in Depth)
+
+---
+
+## 🧭 Navigation
+
+- [Back to Identity, Access & Security](README.md)
+- [Conditional Access](40_azure_conditional_access.md)
+- [Cheat Sheet](cheat_sheet.md)
+- [Practice Questions](practice_questions.md)
+- [AZ-900 Home](../README.md)

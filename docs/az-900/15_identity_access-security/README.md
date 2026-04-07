@@ -22,7 +22,6 @@ It focuses on Microsoft Entra ID, authentication methods, access control, and fo
 
 ## 📚 Study Materials
 
-- [Summary](summary.md)
 - [Cheat Sheet](cheat_sheet.md)
 - [Last-Minute Cheat Sheet](cheat_sheet_last_minute.md)
 - [Practice Questions](practice_questions.md)
