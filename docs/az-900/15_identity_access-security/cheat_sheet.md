@@ -1,195 +1,122 @@
-# 🛡️ AZ-900 Security Cheat Sheet
+# AZ-900 Cheat Sheet – Identity, Access & Security
+
+## 🔐 Identity and Access Management
+
+### Microsoft Entra ID (Azure AD)
+
+Cloud-based identity and access management service.
+
+Used for:
+
+* User authentication
+* Access control
+* Integration with Azure services
 
 ---
 
-# 🔐 Core Security Concepts
+## 🔑 Authentication vs Authorization
 
-## 🧠 Zero Trust
-- Assume breach
-- Verify every request
-- No trust based on location
-
-👉 Principles:
-- Verify explicitly
-- Use least privilege
-- Assume breach
-
-👉 **"Never trust, always verify."**
-
----
-
-## 🛡️ Defense-in-Depth
-- Layered security model
-- Multiple protection layers
-
-### Layers:
-1. Physical
-2. Identity & Access
-3. Perimeter
-4. Network
-5. Compute
-6. Application
-7. Data (core)
-
-👉 **"Multiple layers protect the data."**
-
----
-
-# 👤 Identity & Access
-
-## 🔑 Microsoft Entra ID
-- Identity provider in Azure
-- Manages:
-  - Users
-  - Groups
-  - Authentication
-
-👉 Tenant = your identity boundary
+| Concept        | Description                 |
+| -------------- | --------------------------- |
+| Authentication | Verifies identity (login)   |
+| Authorization  | Grants access (permissions) |
 
 ---
 
 ## 🔐 Authentication Methods
 
-| Method        | Security | Notes |
-|--------------|---------|------|
-| Password     | Low     | Weakest |
-| SSO          | Medium  | Convenience |
-| MFA          | High    | Standard |
-| Passwordless | Very High | Best option |
+| Method       | Description                        |
+| ------------ | ---------------------------------- |
+| Password     | Basic authentication               |
+| MFA          | Multiple factors (strong security) |
+| Passwordless | Biometrics, tokens                 |
 
-👉 **Passwordless = best (secure + user-friendly)**
+👉 MFA is highly recommended
 
 ---
 
-## 🔄 External Identities
+## 👥 External Identities
 
-| Type | Use Case |
-|------|---------|
-| B2B  | Partners (guest users) |
-| Direct Connect | Tenant-to-tenant collaboration |
-| B2C  | Customers (apps) |
-
-👉 **B2B = partners, B2C = customers**
+* Allows external users (partners, customers)
+* Supports B2B and B2C scenarios
 
 ---
 
 ## 🔐 Conditional Access
-- IF condition → THEN action
 
-### Signals:
-- User
-- Location
-- Device
-- Risk
+Controls access based on conditions:
 
-### Actions:
-- Allow
-- Require MFA
-- Block
+* User identity
+* Device compliance
+* Location
+* Risk level
 
-👉 **Dynamic access control**
+👉 Example:
+Block access from unknown locations
 
 ---
 
-## 🎭 RBAC (Role-Based Access Control)
+## 🔑 Role-Based Access Control (RBAC)
 
-👉 Controls:
-**Who can do what on which resource**
+* Assign roles to users, groups, or resources
+* Principle of least privilege
 
-### Roles:
-- Owner
-- Contributor
-- Reader
+### Common Roles:
 
-### Scope:
-- Management Group
-- Subscription
-- Resource Group
-- Resource
-
-👉 Permissions inherit downward
+* Owner
+* Contributor
+* Reader
 
 ---
 
-# 🔐 Data Protection
+## 🛡️ Zero Trust Model
 
-## 🔒 Encryption
+Principle:
 
-### Types:
-- At Rest → stored data
-- In Transit → moving data
+> Never trust, always verify
 
-👉 Use both!
+Key elements:
 
----
-
-## 🔑 Azure Key Vault
-- Stores:
-  - Secrets
-  - Keys
-  - Certificates
-
-### Features:
-- Access control
-- Key rotation
-- Auditing
-
-👉 Avoid hardcoded secrets
+* Verify identity
+* Limit access
+* Assume breach
 
 ---
 
-# 🛡️ Threat Protection
+## 🧱 Defense in Depth
+
+Multiple layers of security:
+
+1. Physical security
+2. Identity & access
+3. Network
+4. Compute
+5. Application
+6. Data
+
+---
+
+## 🔐 Encryption
+
+| Type            | Description |
+| --------------- | ----------- |
+| Data at rest    | Stored data |
+| Data in transit | Moving data |
+
+---
 
 ## 🛡️ Microsoft Defender for Cloud
 
-### Purpose:
-- Security posture management
-- Threat protection
-
-### Works with:
-- Azure
-- Hybrid
-- Multicloud
+* Security monitoring
+* Threat detection
+* Security recommendations
+* Compliance insights
 
 ---
 
-### 🔄 Three Pillars
+## 🎯 Key Takeaways
 
-1. Assess → find vulnerabilities  
-2. Secure → apply best practices  
-3. Defend → detect & respond  
-
----
-
-### Key Features:
-- Secure Score
-- Security recommendations
-- Threat alerts
-- Azure Policy integration
-
----
-
-# 🧠 Ultra Quick Exam Memory
-
-- Zero Trust → never trust
-- RBAC → who can do what
-- Conditional Access → if/then rules
-- MFA → multiple factors
-- Passwordless → best security
-- B2B vs B2C → partners vs customers
-- Encryption → at rest + in transit
-- Key Vault → secrets storage
-- Defender → assess, secure, defend
-
----
-
-# 🚀 Final Super Shortcut
-
-👉 **Identity + Access + Data + Layers = Azure Security**
----
-### Navigation
-- [Parent: Module Overview](README.md)
-- [Previous: ⚡ AZ-900 Last-Minute Cheat Sheet (1-Minute Review)](cheat_sheet_last_minute.md)
-- [Next: 🧪 AZ-900 Practice Questions (with Traps)](practice_questions.md)
-- [Home](../README.md)
-
+* Identity is the foundation of security
+* Use MFA and Conditional Access
+* Apply least privilege with RBAC
+* Combine multiple security layers
