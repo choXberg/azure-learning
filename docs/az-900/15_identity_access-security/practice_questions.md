@@ -128,10 +128,13 @@ D) Encryption
 - "customers" → B2C  
 - "layers" → Defense-in-Depth  
 - "verify every request" → Zero Trust
+
 ---
-### Navigation
-- [Parent: Module Overview](README.md)
-- [Previous: 🛡️ AZ-900 Security Cheat Sheet](cheat_sheet.md)
-- [Next: 🧪 AZ-900 Practice Questions (with Traps)](README.md)
-- [Home](../README.md)
+
+## 🧭 Navigation
+
+- [Back to Identity, Access & Security](README.md)
+- [Cheat Sheet](cheat_sheet.md)
+- [Last-Minute Cheat Sheet](cheat_sheet_last_minute.md)
+- [AZ-900 Home](../README.md)
 
