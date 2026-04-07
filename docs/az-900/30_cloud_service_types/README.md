@@ -1,82 +1,49 @@
-## Software as a Service (SaaS)
+# 🧩 Cloud Service Types (AZ-900)
 
-### Core Idea
-
-* Fully developed, ready-to-use application
-* Delivered over the internet
-
-👉 You simply **use the software**
+This module introduces the three core cloud service models:
+**Infrastructure as a Service (IaaS)**, **Platform as a Service (PaaS)**, and **Software as a Service (SaaS)**.
 
 ---
 
-### Responsibility Split
+## 🎯 Topics Covered
 
-👉 Cloud provider manages:
-
-* infrastructure
-* platform
-* application
-* updates & patches
-* availability
-
-👉 You manage:
-
-* data
-* user access (identity)
-* configuration
-
-👉 Key idea:
-
-* **Least control, least responsibility**
+- [Infrastructure as a Service (IaaS)](10_infrastructure_as_a_service.md)
+- [Platform as a Service (PaaS)](20_platform_as_a_service.md)
+- [Software as a Service (SaaS)](30_software_as_a_service.md)
 
 ---
 
-### Benefits
+## 📚 What You Should Know for the Exam
 
-* No setup required
-* Fast to start
-* Minimal technical knowledge needed
-* Lowest operational overhead
+After this section, you should be able to:
 
----
-
-### Typical Use Cases
-
-* Email & messaging
-* Productivity tools
-* Finance / expense tracking
-
-👉 Examples:
-
-* Microsoft Outlook
-* Microsoft Teams
+- explain the difference between **IaaS, PaaS, and SaaS**
+- understand the **shared responsibility** for each model
+- compare the level of **control vs. operational effort**
+- identify which service model fits a given scenario
 
 ---
 
-## 🧠 Quick Memory Guide
+## 🧠 Exam Focus Areas
 
-* SaaS → **just use the app**
-* Provider manages → everything
-* You manage → data & access
+Pay special attention to:
+
+- **IaaS = most control, most management**
+- **PaaS = managed platform for building apps**
+- **SaaS = ready-to-use software**
+- which layer is managed by the **provider** vs. the **customer**
 
 ---
 
-## 🎯 Exam Triggers
+## 🚀 Study Tip
 
-👉 "Ready-to-use application"
-→ SaaS
+A common AZ-900 question is to describe a scenario and ask which cloud model matches it best.
+Focus on **who manages what**.
 
-👉 "No infrastructure or platform management required"
-→ SaaS
-
-👉 "Who manages updates and patches?"
-→ Cloud provider
-
-👉 "Lowest operational effort"
-→ SaaS
 ---
+
 ### Navigation
-- [Previous: # Software as a Service (SaaS)](30_software_as_a_service.md)
-- [Next: # Software as a Service (SaaS)](summary.md)
+- [Previous: Benefits of Using Cloud Services](../20_benefits_of_using_cloud_services/README.md)
+- [Next: AZ-900 Home](../README.md)
 - [Home](../README.md)
 

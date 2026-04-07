@@ -1,75 +1,53 @@
-## Sustainability (Cloud Benefits)
+# ✅ Benefits of Using Cloud Services (AZ-900)
 
-### Core Idea
-
-* Use cloud resources **efficiently** to reduce:
-
-  * energy consumption
-  * waste
-  * costs
-
-👉 Cloud providers (like Microsoft Azure) are more efficient due to **large-scale infrastructure**
+This module explains the **main advantages of cloud computing** from a business and operational perspective.
+It focuses on why organizations move to the cloud and which benefits are commonly tested in the AZ-900 exam.
 
 ---
 
-### Sustainability Practices
+## 🎯 Topics Covered
 
-* **Scale down** resources when demand decreases
-* **Turn off / deallocate** unused resources
-* **Right-size** resources (avoid overprovisioning)
-* Use **efficient services and configurations**
-* **Monitor usage** and optimize continuously
-
----
-
-### Automation Example
-
-* Dev environment runs only during business hours
-  → automatically shut down at night/weekends
-
-👉 Result:
-
-* lower cost
-* less resource waste
+- [Benefits of High Availability and Scalability](10_benefits_of_high_availability_and_scalability_in_the_cloud.md)
+- [Benefits of Reliability and Predictability](20_benefits_of_reliability_and_predictability_in_the_cloud.md)
+- [Benefits of Security and Governance](30_benefits_of_security_and_governance_in_the_cloud.md)
+- [Benefits of Manageability](40_benefits_of_manageability_in_the_cloud.md)
+- [Sustainability Considerations](50_sustainability_considerations_in_the_cloud.md)
 
 ---
 
-### Key Principles
+## 📚 What You Should Know for the Exam
 
-* Right-size → use only what you need
-* Automate → reduce manual waste
-* Monitor → track usage
-* Optimize → improve over time
+After this section, you should be able to:
 
----
-
-## 🧠 Quick Memory Guide
-
-* Sustainability → **efficiency + cost saving**
-* Reduce waste → scale down / shut down
-* Continuous optimization is key
+- explain how the cloud improves **availability** and **scalability**
+- understand why cloud services can improve **reliability** and **predictability**
+- describe benefits around **security**, **governance**, and **manageability**
+- recognize how cloud usage can support **sustainability goals**
+- match common business scenarios to the correct cloud benefit
 
 ---
 
-## 🎯 Exam Triggers
+## 🧠 Exam Focus Areas
 
-👉 "Reduce resource waste"
-→ Sustainability
+Pay special attention to:
 
-👉 "Turn off unused resources"
-→ Cost + sustainability
-
-👉 "Match resources to demand"
-→ Right-sizing
-
-👉 "Monitor and optimize over time"
-→ Sustainability best practice
+- **high availability vs. scalability**
+- **reliability and predictability**
+- **security and governance advantages**
+- **operational manageability**
+- **resource efficiency and sustainability**
 
 ---
-[Benefits of using cloud services](README.md)
+
+## 🚀 Study Tip
+
+AZ-900 often asks which **business outcome** a cloud feature supports.
+So focus on the question: **What benefit does this service or model provide?**
+
 ---
+
 ### Navigation
-- [Previous: # Sustainability (Cloud Benefits)](50_sustainability_considerations_in_the_cloud.md)
-- [Next: # Sustainability (Cloud Benefits)](summary.md)
+- [Previous: Identity, Access & Security](../15_identity_access-security/README.md)
+- [Next: Cloud Service Types](../30_cloud_service_types/README.md)
 - [Home](../README.md)
 

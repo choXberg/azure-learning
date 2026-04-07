@@ -150,8 +150,13 @@ After completing AZ-900:
 ## 🧠 Final Thought
 
 > *"Learn it once, understand it forever."*
+
 ---
----
+
 ### Navigation
-- [Exam Summary](./00_overview/exam-summary.md)
+- [Overview](./00_overview/README.md)
+- [Start with Introduction to Cloud Infrastructure](./10_introduction_to_cloud_infrastructure/README.md)
+- [Identity, Access & Security](./15_identity_access-security/README.md)
+- [Cloud Benefits](./20_benefits_of_using_cloud_services/README.md)
+- [Cloud Service Types](./30_cloud_service_types/README.md)
 

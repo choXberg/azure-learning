@@ -68,3 +68,11 @@ Focus especially on:
 ## 🚀 Tip
 
 Use the **cheat sheet** and **practice questions** in this folder for final exam preparation.
+
+---
+
+### Navigation
+- [Previous: AZ-900 Overview](../00_overview/README.md)
+- [Next: Identity, Access & Security](../15_identity_access-security/README.md)
+- [Home](../README.md)
+

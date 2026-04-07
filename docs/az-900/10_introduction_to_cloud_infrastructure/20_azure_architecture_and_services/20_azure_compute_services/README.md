@@ -1,160 +1,56 @@
-# 🌐 Azure Application Hosting Options – Summary (AZ-900 relevant)
+# ⚙️ Azure Compute Services (AZ-900)
 
-## 🧠 Overview
-
-Azure provides multiple ways to host applications:
-
-- **Virtual Machines (VMs)** → Maximum control
-- **Containers** → Flexible and lightweight
-- **Azure App Service** → Fully managed (PaaS)
-
-👉 Key idea:
-- Trade-off between **control vs. operational effort**
+This section introduces the most important **Azure compute options**.
+It focuses on when to use virtual machines, containers, serverless services, and managed app hosting.
 
 ---
 
-## ⚖️ Hosting Spectrum (Exam Concept)
+## 🎯 Topics Covered
 
-| Option        | Control        | Management Effort | Typical Use Case                |
-|---------------|--------------|------------------|--------------------------------|
-| Virtual Machines | High         | High             | Full customization             |
-| Containers     | Medium       | Medium           | Microservices, portability     |
-| App Service    | Low          | Low              | Web apps, APIs (fast setup)    |
-
-👉 **Exam Key Point:**
-- More control = more responsibility
+- [Azure Virtual Machines](10_azure_virtual_machines.md)
+- [Azure Virtual Desktop](20_azure_virtual_desktop.md)
+- [Azure Containers](30_azure_containers.md)
+- [Azure Functions](40_azure_functions.md)
+- [Azure AI, ML, and IoT Edge Services](50_azure_ai_ml_iot_edge_services.md)
+- [Azure Application Hosting Options](60_azure_application_hosting_options.md)
 
 ---
 
-## 🖥️ Virtual Machines (VMs)
+## 📚 What You Should Know for the Exam
 
-- Full control over:
-  - OS
-  - Runtime
-  - Configuration
-- Familiar (like on-premises)
+After this section, you should be able to:
 
-👉 Downsides:
-- Requires **management and maintenance**
+- compare **VMs**, **containers**, and **serverless** options
+- understand when to use **Azure Virtual Desktop**
+- recognize common compute scenarios in Azure
+- explain the trade-off between **control** and **management effort**
 
 ---
 
-## 📦 Containers
+## 🧠 Exam Focus Areas
 
-- Lightweight and portable
-- Isolate application components
-- Easier scaling than VMs
+Pay special attention to:
 
-👉 Often used for:
-- Microservices architectures
-
----
-
-## ⚙️ Azure App Service (Very Important!)
-
-- **PaaS offering**
-- No infrastructure management required
-- Used for:
-  - Web apps
-  - REST APIs
-  - Mobile back ends
-  - Background jobs
-
-👉 Key benefits:
-- Automatic scaling
-- High availability
-- Built-in load balancing
-- Continuous deployment (GitHub, Azure DevOps, Git)
+- **Virtual Machines** for maximum control
+- **Containers** for portability and microservices
+- **Azure Functions** for event-driven serverless workloads
+- **App Service** for managed web app and API hosting
+- basic awareness of **AI/ML and IoT Edge** services
 
 ---
 
-## 🌍 Supported Technologies
+## 🚀 Study Tip
 
-- Languages & frameworks:
-  - .NET / .NET Core
-  - Java
-  - Node.js
-  - Python
-  - PHP
+A common AZ-900 pattern is to compare services by asking:
 
-- OS support:
-  - Windows
-  - Linux
+1. how much control is needed
+2. how much management effort is acceptable
+3. what kind of workload is being hosted
 
 ---
 
-## 🧩 Types of App Service
-
-### 🌐 Web Apps
-- Host websites and web applications
-- Supports multiple frameworks
-
----
-
-### 🔌 API Apps
-- Host RESTful APIs
-- Supports Swagger
-- Can be published to Azure Marketplace
-
----
-
-### ⚙️ WebJobs
-- Run background tasks or scripts
-- Can be:
-  - Scheduled
-  - Triggered
-
-👉 Example:
-- Data processing
-- Scheduled jobs
-
----
-
-### 📱 Mobile Apps
-- Backend for mobile applications
-- Features:
-  - Cloud data storage
-  - Authentication (Google, Facebook, etc.)
-  - Push notifications
-
----
-
-## 🎯 When to use what?
-
-- **VMs**
-  → Full control required
-
-- **Containers**
-  → Flexible, scalable architectures
-
-- **App Service**
-  → Fast, managed hosting for web apps & APIs
-
----
-
-## 🧪 Exam-Relevant Key Points
-
-- App Service = **PaaS for web apps & APIs**
-- No infrastructure management
-- Supports:
-  - Auto-scaling
-  - High availability
-  - CI/CD
-- WebJobs = background processing
-- Mobile Apps = backend for mobile apps
-- VM = most control, most effort
-- Containers = balance between control and flexibility
-
----
-
-## 🧠 Quick Memory Aid
-
-> **VM = control**  
-> **Containers = flexibility**  
-> **App Service = simplicity**
----
 ### Navigation
-- [Previous: 🌐 Azure Application Hosting Options – Summary (AZ-900 relevant)](60_azure_application_hosting_options.md)
-- [Next: 🌐 Azure Application Hosting Options – Summary (AZ-900 relevant)](summary.md)
+- [Previous: Core Architectural Components](../10_core_architectural_components_of_azure/README.md)
+- [Next: Azure Networking Services](../30_azure_networking_services/README.md)
 - [Home](../../../README.md)
 
