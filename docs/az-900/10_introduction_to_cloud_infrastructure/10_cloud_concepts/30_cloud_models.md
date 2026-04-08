@@ -23,6 +23,8 @@
 - Highest control & security
 - Can be on-prem or externally hosted
 
+In a private cloud, hardware must be purchased for start up and maintenance. In a private cloud, organizations control resources and security. Quick provisioning is a characteristic of the public cloud deployment model. Paying only for what is used is a characteristic of the public cloud deployment model.
+
 ## 👉 Disadvantages:
 - Expensive
 - Maintenance is your responsibility

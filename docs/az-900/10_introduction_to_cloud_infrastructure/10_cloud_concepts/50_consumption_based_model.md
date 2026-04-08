@@ -1,5 +1,7 @@
 # ☁️ Consumption-Based Model (Pay-as-you-go)
 
+In a consumption-based model, you do not pay for anything until you start using resources, and you only pay for what you use. If you stop using a resource, you stop paying for it. High expenditures are usually associated with the purchase of the physical infrastructure, which is not needed in a consumption-based model.
+
 ## 🧠 Basic Principle
 
 ### 👉 You pay only for what you actually use
