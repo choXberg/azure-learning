@@ -1,162 +1,112 @@
-# ☁️ AZ-900 – Microsoft Azure Fundamentals
+# AZ-900 – Microsoft Azure Fundamentals
 
-This section contains my structured learning notes, summaries, and practice material for the **AZ-900 (Microsoft Azure Fundamentals)** certification.
+This repository documents my learning journey for the **AZ-900: Microsoft Azure Fundamentals** certification.
 
-The goal of this repository is not just to pass the exam, but to build a **solid conceptual understanding of Azure fundamentals**.
-
----
-
-## 🎯 Learning Goals
-
-- Understand core Azure concepts and services  
-- Build a strong foundation for **AZ-204 (Azure Developer)**  
-- Create a reusable knowledge base for real-world projects  
-- Learn actively through summaries and practice questions  
+It combines:
+- hands-on labs 🛠️
+- compact theory 📚
+- exam preparation 🧠
 
 ---
 
-## 📚 Structure
+## 📂 Structure
 
-Each module follows a consistent structure:
-```
-Module/
-├── 10_topic_name.md
-├── 20_topic_name.md
-├── ...
-├── summary.md
-├── cheat_sheet.md
-├── practice_questions.md
-├── README.md
-```
+### 🛠️ Labs
 
+Hands-on exercises covering core Azure services.
 
-### Explanation
+📁 [Labs Overview](labs/)
 
-- **Topic files (`10_*.md`, `20_*.md`, …)**  
-  Detailed notes for each learning unit
+Includes:
+- Virtual Machines (IaaS)
+- App Service (PaaS)
+- Containers (ACI)
+- Networking (VNet, NSG)
+- Storage (Blob)
+- Databases (Azure SQL)
+- Serverless (Azure Functions)
 
-- **summary.md**  
-  Condensed overview of the module
-
-- **cheat_sheet.md**  
-  Quick reference for revision (exam-focused)
-
-- **practice_questions.md**  
-  Exam-style questions with answers
-
-- **README.md**  
-  Navigation and module overview
+👉 Focus: understanding services through practice
 
 ---
 
-## 🧠 Modules Overview
+### 📌 Cheat Sheet
 
-### 00 – Overview
-- [Exam Summary](./00_overview/exam-summary.md)
+Quick reference for last-minute review before the exam.
 
----
+📄 [AZ-900 Cheat Sheet](cheat-sheet/README.md)
 
-### 10 – Introduction to Cloud Infrastructure
-- Cloud concepts and core architectural principles  
-- Azure compute, networking, storage, and management services  
-- Pricing, governance, and consumption models  
+Includes:
+- cloud concepts
+- service overview
+- pricing & scaling
+- security basics
 
-📂 Path: `10_introduction_to_cloud_infrastructure/`
-
----
-
-### 15 – Identity, Access & Security
-- Microsoft Entra ID  
-- Authentication methods (MFA, Passwordless)  
-- Conditional Access  
-- RBAC  
-- Zero Trust & Defense-in-Depth  
-- Encryption & Key Management  
-- Microsoft Defender for Cloud  
-
-📂 Path: `15_identity_access-security/`
+👉 Perfect for final revision (1–2 days before exam)
 
 ---
 
-### 20 – Benefits of Cloud Services
-- High availability & scalability  
-- Reliability & predictability  
-- Security & governance  
-- Manageability  
-- Sustainability  
+### 🧠 Exam Preparation
 
-📂 Path: `20_benefits_of_using_cloud_services/`
+Practice questions and exam strategies.
 
----
+📁 [Exam Prep](exam-prep/README.md)
 
-### 30 – Cloud Service Types
-- IaaS  
-- PaaS  
-- SaaS  
+Includes:
+- 📄 [Exam Simulation 01](exam-prep/exam-simulation-01.md)
+- 📄 [Exam Simulation 02](exam-prep/exam-simulation-02.md)
+- ⚠️ [Exam Traps & Patterns](exam-prep/exam-traps.md)
 
-📂 Path: `30_cloud_service_types/`
+👉 Focus: thinking like in the real exam
 
 ---
 
-## 🚀 How to Use This Repository
+## 🧭 Learning Approach
 
-### 1. Learn
-Start with the topic files inside each module.
+1. **Understand concepts**
+   - Read lab summaries
+   - Focus on differences (IaaS vs PaaS vs Serverless)
 
-### 2. Understand
-Read the `summary.md` to consolidate knowledge.
+2. **Practice actively**
+   - Complete labs
+   - Review key services
 
-### 3. Memorize
-Use the `cheat_sheet.md` for quick repetition.
+3. **Test knowledge**
+   - Use exam simulations
+   - Analyze mistakes
 
-### 4. Test Yourself
-Practice with `practice_questions.md`.
-
----
-
-## 🧩 Learning Strategy
-
-This repository follows a layered learning approach:
-
-1. **Detailed notes** → understand concepts  
-2. **Summaries** → reinforce knowledge  
-3. **Cheat sheets** → memorize key facts  
-4. **Practice questions** → simulate exam conditions  
+4. **Final review**
+   - Use cheat sheet
+   - Memorize key patterns
 
 ---
 
-## 🛠️ Notes
+## 🎯 Key Topics for the Exam
 
-- Content is written in a mix of **German and English** to support learning and exam terminology  
-- Focus is on **conceptual clarity**, not just memorization  
-- Structure is designed for **quick revision before the exam**  
-
----
-
-## 📌 Status
-
-🚧 Work in progress – continuously updated during my AZ-900 preparation
-
----
-
-## 💡 Next Steps
-
-After completing AZ-900:
-- Continue with **AZ-204 (Azure Developer)**  
-- Apply concepts in real projects (e.g. POIneer)  
+- Cloud concepts (CapEx vs OpEx)
+- Service models (IaaS, PaaS, SaaS)
+- Core services:
+  - Compute
+  - Storage
+  - Networking
+  - Databases
+- Security & identity (RBAC, Entra ID)
+- Pricing & governance
 
 ---
 
-## 🧠 Final Thought
+## 💡 Notes
 
-> *"Learn it once, understand it forever."*
+- Focus is on **breadth, not depth**
+- Questions often rely on:
+  - keywords ("best", "least effort")
+  - service comparison
+- Understanding concepts is more important than memorization
 
 ---
 
-### Navigation
-- [Overview](./00_overview/README.md)
-- [Start with Introduction to Cloud Infrastructure](./10_introduction_to_cloud_infrastructure/README.md)
-- [Identity, Access & Security](./15_identity_access-security/README.md)
-- [Cloud Benefits](./20_benefits_of_using_cloud_services/README.md)
-- [Cloud Service Types](./30_cloud_service_types/README.md)
+## 🚀 Goal
 
+- Pass AZ-900 certification
+- Build a solid foundation for **AZ-204**
+- Gain practical understanding of Azure services
