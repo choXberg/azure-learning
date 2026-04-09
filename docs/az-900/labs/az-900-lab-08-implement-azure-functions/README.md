@@ -1,110 +1,36 @@
 # AZ-900 Lab 08 – Implement Azure Functions
 
-## 🎯 Ziel
-Erstellen einer Azure Function App und Ausführen einer HTTP-getriggerten Funktion (Serverless Computing).
+## 🎯 Objective
+Create and execute a serverless function using HTTP trigger.
 
 ---
 
-## 🧠 Wichtige Konzepte
+## 🧠 Key Concepts
 
 ### Azure Functions
-- Serverless Compute Service
-- Code wird nur bei Bedarf ausgeführt (Event-driven)
-- Keine Verwaltung von Servern notwendig
+- Serverless compute
+- Event-driven execution
 
 ---
 
-### Hosting Plan
-
-#### Consumption Plan
-- Automatische Skalierung
-- Pay-per-execution (nur zahlen, wenn Code läuft)
-- Ideal für sporadische Workloads
+### Consumption Plan
+- Pay-per-use
+- Auto scaling
 
 ---
 
-### Function App
-- Container für mehrere Functions
-- Gemeinsame Konfiguration (Runtime, Region, Monitoring)
+### Triggers
+- HTTP
+- Timer
+- Queue
+- Blob
 
 ---
 
-### Trigger & Bindings
-
-#### Trigger
-Starten die Funktion:
-
-- HTTP Trigger
-- Timer Trigger
-- Blob Trigger
-- Queue Trigger
-- Event Grid Trigger
-
-#### Bindings
-- Einfache Integration mit anderen Azure Services
-- Input/Output ohne viel Code
-
----
-
-## ⚙️ Umsetzung im Lab
-
-### 1. Log Analytics Workspace
-- Zentraler Ort für Logs und Monitoring
-- Wird für Analyse und Troubleshooting genutzt
-
----
-
-### 2. Function App erstellen
-
-Wichtige Einstellungen:
-- Runtime: .NET 8 (LTS)
-- Hosting: Consumption Plan
-- OS: Windows
-- Region: East US
-
----
-
-### 3. HTTP Trigger Function
-
-Standard-Code (vereinfacht):
-
-```csharp
-public static async Task<IActionResult> Run(
-    HttpRequest req,
-    ILogger log)
-{
-    string name = req.Query["name"];
-    return new OkObjectResult($"Hello, {name}");
-}
-```
-
----
-
-### 4. Testen der Function
-
-Beispiel URL:
-
-```
-https://<function>.azurewebsites.net/api/HttpTrigger1?code=XYZ&name=Chris
-```
-
-Antwort:
-
-```
-Hello, Chris
-```
-
----
-
-## 🔐 Function Keys (WICHTIG für Prüfung!)
-
-Es gibt verschiedene Schlüsseltypen:
-
-- Function Key → Zugriff auf eine einzelne Function
-- Host Key → Zugriff auf alle Functions in der App
-- Master Key → Vollzugriff (Admin)
-
-👉 Wird genutzt zur Authentifizierung ohne Azure AD
+## 🔐 Function Keys
+- Function Key
+- Host Key
+- Master Key
 
 ---
 
@@ -112,86 +38,102 @@ Es gibt verschiedene Schlüsseltypen:
 
 ### Application Insights
 - Logging
-- Performance Tracking
-- Fehleranalyse
-
-### Invocations
-- Jede Function-Ausführung wird geloggt
-- Query via Application Insights möglich
+- Performance monitoring
+- Error tracking
 
 ---
 
-## 💡 Prüfungsrelevante Punkte
+## 💡 Exam-Relevant Points
 
-- Azure Functions = Serverless
-- Consumption Plan = automatische Skalierung + Pay-per-use
-- Trigger starten Functions
-- Function App = Container für Functions
-- Application Insights = Monitoring & Logging
-- Function Keys = Zugriffssicherung
+- Functions = Serverless
+- Trigger starts execution
+- Monitoring via Application Insights
 
 ---
 
-## ⚠️ Kostenhinweis
+## 🔍 Deep Dive
 
-- Consumption Plan ist günstig, aber:
-- Ressourcen nach Lab löschen empfohlen
+### Why Functions?
+- No server management
+- scalable automatically
 
----
+### Comparison
+- VM → always running
+- Function → runs on demand
 
-## 🧪 Beispiel Prüfungsfragen
-
-### Frage 1
-Was ist ein Vorteil von Azure Functions?
-
-A) Man muss VMs manuell skalieren  
-B) Automatische Skalierung ohne Serververwaltung  
-C) Höhere Fixkosten  
-D) Kein Logging möglich  
-
-✅ Antwort: B
+### POIneer relevance
+- scheduled jobs
+- APIs
+- background processing
 
 ---
 
-### Frage 2
-Was startet eine Azure Function?
+## 🧪 Quiz
 
-A) Binding  
+### Question 1
+What is Azure Functions?
+
+A) VM  
+B) Serverless compute  
+C) Storage  
+D) Network  
+
+<details><summary>Show answer</summary>
+✅ B
+</details>
+
+---
+
+### Question 2
+What triggers execution?
+
+A) Key  
 B) Trigger  
-C) Function Key  
-D) Resource Group  
+C) VM  
+D) NSG  
 
-✅ Antwort: B
-
----
-
-### Frage 3
-Was ist Application Insights?
-
-A) Datenbank  
-B) Monitoring-Tool  
-C) VM-Service  
-D) Netzwerkdienst  
-
-✅ Antwort: B
+<details><summary>Show answer</summary>
+✅ B
+</details>
 
 ---
 
-### Frage 4
-Wann bezahlst du bei Consumption Plan?
+### Question 3
+Pricing model?
 
-A) Immer  
-B) Nur wenn Code ausgeführt wird  
-C) Nur bei Deployment  
-D) Nur bei Fehlern  
+A) Fixed  
+B) Pay-per-use  
+C) Free  
+D) Per VM  
 
-✅ Antwort: B
+<details><summary>Show answer</summary>
+✅ B
+</details>
 
 ---
 
-## 🧩 Eigene Notizen
+### Question 4
+Monitoring tool?
 
-- Function Triggers = Startmechanismus
-- HTTP Trigger sehr häufig für APIs
-- Function URL enthält Sicherheitskey
-- Logging über Application Insights extrem wichtig
+A) Blob  
+B) Application Insights  
+C) VNet  
+D) SQL  
+
+<details><summary>Show answer</summary>
+✅ B
+</details>
+
+---
+
+### Question 5
+Best use case?
+
+A) Static files  
+B) Event-driven tasks  
+C) VM hosting  
+D) Networking  
+
+<details><summary>Show answer</summary>
+✅ B
+</details>
