@@ -1,6 +1,7 @@
 # AZ-900 Lab 03 – Deploy Azure Container Instances
 
 ## 🎯 Objective
+
 Run containers without managing VMs.
 
 ---
@@ -8,6 +9,7 @@ Run containers without managing VMs.
 ## 🧠 Key Concepts
 
 ### Azure Container Instances (ACI)
+
 - Run containers directly
 - No VM management
 
@@ -23,11 +25,13 @@ Run containers without managing VMs.
 ## 🔍 Deep Dive
 
 ### When to use ACI?
+
 - short-lived jobs
 - testing
 - simple workloads
 
 ### Comparison
+
 - ACI → simple
 - AKS → complex orchestration
 
@@ -36,6 +40,7 @@ Run containers without managing VMs.
 ## 🧪 Quiz
 
 ### Question 1
+
 What is ACI?
 
 A) Database  
@@ -50,6 +55,7 @@ D) Network
 ---
 
 ### Question 2
+
 Does ACI use Kubernetes?
 
 A) Yes  
@@ -64,6 +70,7 @@ D) Always
 ---
 
 ### Question 3
+
 Best use case?
 
 A) Complex microservices  
@@ -78,6 +85,7 @@ D) Storage
 ---
 
 ### Question 4
+
 Compared to AKS?
 
 A) More complex  
@@ -92,6 +100,7 @@ D) Faster cluster
 ---
 
 ### Question 5
+
 Infrastructure management?
 
 A) Full  

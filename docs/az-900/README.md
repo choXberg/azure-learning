@@ -3,6 +3,7 @@
 This repository documents my learning journey for the **AZ-900: Microsoft Azure Fundamentals** certification.
 
 It combines:
+
 - hands-on labs 🛠️
 - compact theory 📚
 - exam preparation 🧠
@@ -18,6 +19,7 @@ Hands-on exercises covering core Azure services.
 📁 [Labs Overview](labs/)
 
 Includes:
+
 - Virtual Machines (IaaS)
 - App Service (PaaS)
 - Containers (ACI)
@@ -37,6 +39,7 @@ Quick reference for last-minute review before the exam.
 📄 [AZ-900 Cheat Sheet](cheat-sheet/README.md)
 
 Includes:
+
 - cloud concepts
 - service overview
 - pricing & scaling
@@ -53,6 +56,7 @@ Practice questions and exam strategies.
 📁 [Exam Prep](exam-prep/README.md)
 
 Includes:
+
 - 📄 [Exam Simulation 01](exam-prep/exam-simulation-01.md)
 - 📄 [Exam Simulation 02](exam-prep/exam-simulation-02.md)
 - ⚠️ [Exam Traps & Patterns](exam-prep/exam-traps.md)
